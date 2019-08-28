@@ -1,0 +1,40 @@
+<apex:page controller="Create">
+    <script>
+        function validateFunction(){
+            var b = document.getElementById('{!$Component.frm:email}').value;
+            var mail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(b);
+            if( b == "" || !mail )
+            {
+                alert('Please enter a valid Email ID');
+                return false;
+            }
+            
+            var c = document.getElementById('{!$Component.frm:phone}').value;
+            var phnum = /^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$/.test(c);
+            if( c == '' || !phnum)
+            {
+                alert('Please enter a valid Phone number');
+                return false;
+            }
+            
+            var d = document.getElementById('{!$Component.frm:number}').value;
+            var num = /^(0|[1-9][0-9]*)$/.test(d);
+            if( d == '' || !num)
+            {
+                alert('Please enter a valid Account number');
+                return false;
+            }            
+        }
+    </script>
+    <apex:form id="frm">
+        Account Name : <apex:inputText id="name"/>
+        <br/>
+        Email : <apex:inputText id="email"/>
+        <br/>
+        Phone : <apex:inputText id="phone"/>
+        <br/>
+        Account Number : <apex:inputText id="number"/>
+        <br/>
+        <apex:commandButton value="Submit" onclick="return validateFunction();"/>
+    </apex:form>
+</apex:page>

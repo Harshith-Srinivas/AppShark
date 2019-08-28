@@ -1,0 +1,34 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="accountSummaryController">
+    <aura:attribute	name="data" type="Object"/>
+    <aura:attribute name="columns" type="List"/>
+    <aura:attribute name="draftValues" type="Object" default="[]"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doinit}"/>
+    <lightning:card title="{!'Contacts related to' + v.data.AccountId}">
+    	<lightning:datatable aura:id="con-table"
+                         columns="{!v.columns}"
+                         data="{!v.data}"
+                         keyField="Id"
+                         draftValues="{!v.draftValues }"
+                         onsave="{!c.handleSave}"
+                         />
+    </lightning:card>
+    <!--div class="slds-page-header">
+        <table>
+            <thead>
+        		<tr>
+                    <th>Contact Name</th>
+                    <th>Created By</th>
+            	</tr>
+            </thead>
+            <tbody>
+                <aura:iteration items="{!v.contact}" var="c">
+                	<tr>
+                    	<td>{!c.Name}</td>
+                        <td>{!c.CreatedBy.Name}</td>
+                        <td><lightning:button variant="base" label="Edit" onclick="editContact"/></td>
+                    </tr>
+                </aura:iteration>
+            </tbody>
+        </table>
+    </div>-->
+</aura:component>

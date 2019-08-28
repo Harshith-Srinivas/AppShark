@@ -1,0 +1,171 @@
+<apex:page renderAs="PDF" showHeader="false" standardController="Quote" extensions="QuoteTemplate" standardStylesheets="false" applyBodyTag="false" applyHtmlTag="false">
+    <head>
+        <style type="text/css">
+            body
+            {
+            	font-size: 12px !important;
+            	font-family: Arial, Helvetica, sans-serif;
+            }
+        	.ContractBox
+        	{ 
+            	font-weight: bold;
+        	}
+            table
+            {
+            	border: 1px solid black;
+            	border-collapse: collapse;
+            	margin-top: 12%;
+            }
+            .table-data
+            {
+            	
+               	border: 1px solid black;
+            	border-collapse: collapse; 
+            }
+            th
+            { 
+                border:1px solid black; 
+                padding: 20px;
+            	width: 100px;
+            }
+            td
+            {  		
+                border:1px solid black;
+            	padding: 20px;
+            	width: 100px;
+            }
+            .TopBox
+            {
+            	margin-top:20px;
+            }
+            .QuoteDetails
+            {
+            	float:left;
+            }
+            .QuoteDetails2
+            {
+            	float: right;
+            	margin-left:20px;
+            }
+            label
+            {
+            	width:200px;
+    			font-weight: bold; 	
+            }
+            .BottomBox
+            {
+            	margin-top:20px;
+            }
+            .Billing
+            {
+            	border-bottom: 1px solid black;
+            }
+            .Shipping
+            {
+            	border-bottom: 1px solid black;
+            }
+    	</style>
+    </head>
+    <body>
+    <div>
+    	<div class="logo">
+    		<apex:image url="{!$Resource.Quote}" width="125" height="50"/>
+   		</div>
+    	<div class="Address" style="float:left;">
+        	<apex:outputText value="{!OfficeAddress}"/>
+    	</div>
+    	<div class="ContractBox" style="float:right">
+        	<apex:form >
+            <apex:commandButton value="Submit"/>
+            </apex:form>
+            <apex:outputText value="MALL MEDIA CONTRACT"/>
+    	</div>
+    </div>
+    <br/>
+     <div class="TopBox">
+        <div class="QuoteDetails">
+        	<div>
+                <label>Opportunity:</label>
+        		<span class="details">{!Quote.Name}</span>
+        	<br/>
+        		<label>Contact Name:</label>
+        		<span class="details"><apex:outputField value="{!Quote.ContactId}"/></span>
+        	</div>
+        	<div class="BillingTo">
+        		<label>Bill To Name:</label>
+            	<span class="details">{!Quote.BillingName}</span>
+            	<br/>
+            	<label>Billing To:</label>
+            	<span class="Billing">
+                	<span>{!Quote.BillingStreet}</span>
+                	<span>{!Quote.BillingCity}</span>
+                	<span>{!Quote.BillingState}</span>
+                	<span>{!Quote.BillingPostalCode}</span>
+                	<span>{!Quote.BillingCountry}</span>
+            	</span>
+      		</div>
+        </div>
+         <div class="QuoteDetails2">
+             <div>
+        		<label>Email:</label>
+        		<span class="details">{!Quote.Email}</span>
+        	<br/>
+        		<label>Phone:</label>
+        		<span class="details">{!Quote.Phone}</span>
+       		</div>
+            <div class="ShippingTo">
+            	<label>Ship To Name:</label>
+            	<span class="details">{!Quote.ShippingName}</span>
+            <br/>
+            	<label>Shipping To:</label>
+            	<span class="Shipping">
+                	<span>{!Quote.ShippingStreet}</span>
+                	<span>{!Quote.ShippingCity}</span>
+                	<span>{!Quote.ShippingState}</span>
+                	<span>{!Quote.ShippingPostalCode}</span>
+                	<span>{!Quote.ShippingCountry}</span>
+            	</span>
+        	</div>
+        	</div>
+     </div>
+     <div class="tab">
+     	<table>
+            	<tr style="background-color:#ccFFFF;">
+                	<th>Product</th>
+                	<th>List Price</th>
+                	<th>Sales Price</th>
+                    <th>Quantity</th>
+                    <th>Total Price</th>
+                </tr>
+                <apex:repeat value="{!QuoteLinItem}" var="q">
+                <tr>
+                    <td>{!q.Product2.Name}</td>
+                	<td>{!q.ListPrice}</td>
+                	<td>{!q.UnitPrice}</td>
+                    <td>{!q.Quantity}</td>
+                    <td>{!q.TotalPrice}</td>
+                </tr>
+            	</apex:repeat>
+        </table>
+      </div>
+        <div class="BottomBox">
+            <div style="float:left">
+                <label>Expiration Date: </label>
+                <span><apex:outputField value="{!Quote.ExpirationDate}"/></span>
+            </div>
+            <div style="float:right;line-height: 2.0">
+            	<label>Sub Total: </label>
+            	<span>{!Quote.SubTotal}</span>
+            	<br/>
+            	<label>Discount: </label>
+            	<span>{!Quote.Discount}</span>
+            	<br/>
+            	<label>Total Price: </label>
+            	<span>{!Quote.TotalPrice}</span>
+            	<br/>
+            	<label>Grand Total: </label>
+            	<span>{!Quote.GrandTotal}</span>
+        	</div>
+        </div>
+  </body>
+</apex:page>

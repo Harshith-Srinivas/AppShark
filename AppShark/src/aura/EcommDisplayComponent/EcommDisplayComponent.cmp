@@ -1,0 +1,38 @@
+<aura:component controller="SearchProduct" implements="force:appHostable,force:hasRecordId" access="global">
+    <aura:attribute name="ProductNames" type="Object[]"/>
+     <aura:attribute name="product" type="Object[]"/>
+    <aura:attribute name="recordId" type="Id" />
+    <aura:handler name="ProductSearch" event="c:EcommEvent" action="{!c.handleComponentEvent}"/>
+    <aura:handler name="ProductCategory" event="c:EcommEvent" action="{!c.handleComponentEvent}"/>
+    <!--<aura:handler name="init" value="{!this}" action="{!c.doInit}" />-->
+    <c:EcomSearchComponent/>
+    <div style="float:right">
+        <lightning:button label="Go to Cart" onclick="{!c.cartHandle}"/>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Images</th>
+                <th>Add to Cart</th>
+            </tr>
+       </thead>
+       <tbody>
+          <aura:iteration items="{!v.ProductNames}" var ="p">
+            <tr>
+              <td>{!p.Name}</td>
+              <td>{!p.Price__c}</td>
+              <td class="uiOutputRichText" escape="false" linkify="true" style="width:60px; height:60px;" >
+                <aura:unescapedHtml value="{!p.Images__c}"/>
+              </td>
+              <td>
+                  <span class="spanButtonClose">
+                      <button type="button" onclick="{!c.handleClick}" id="{!p.Id}">Add to Cart</button>
+                  </span>
+              </td>
+            </tr>
+		  </aura:iteration>
+         </tbody>
+    </table>
+</aura:component>

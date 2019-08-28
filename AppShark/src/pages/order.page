@@ -1,0 +1,34 @@
+<apex:page controller="custom_order">
+    <apex:form >    
+        <apex:pageBlock >
+          <apex:pageBlockSection >
+            <apex:selectList value="{!SelectedProduct}" multiselect="false" size="1">    
+            Product:<apex:selectOptions value="{!ListProductName}"/>
+               <apex:actionSupport event="onchange" action="{!SelectedProductFunction}"/>
+            </apex:selectList>
+          </apex:pageBlockSection>
+          <apex:pageBlockSection >
+            <apex:outputText Value="{!productPrice}" label="Product Price"/>
+              <apex:outputText Value="{!discount}" label="Discount"/>
+          </apex:pageBlockSection>
+		  <apex:pageBlockSection >
+            
+          </apex:pageBlockSection>
+          <apex:pageBlockSection >
+            <apex:selectList value="{!SelectedState}" multiselect="false" size="1">  
+            State:<apex:selectOptions value="{!ListStateName}"/>
+                <apex:actionSupport event="onchange" action="{!SelectedStateFunction}"/>
+            </apex:selectList>
+          </apex:pageBlockSection>
+          <apex:pageBlockSection >
+             <apex:outputText Value="{!stateTax}" label="State Tax:"/>
+          </apex:pageBlockSection>
+          <apex:pageBlockSection >
+           <apex:outputText value="{!total}" label="Total"/>
+          </apex:pageBlockSection>
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!calculate}" value="Calculate"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

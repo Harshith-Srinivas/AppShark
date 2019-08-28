@@ -1,0 +1,12 @@
+<apex:page controller="multiAccountInsert">
+    <apex:form >
+         <apex:pageBlock >
+              <apex:pageBlockButtons location="Bottom" >
+                <apex:commandButton value="Save" action="{!Save}" id="display" />
+            </apex:pageBlockButtons>
+                <apex:pageblocksection >
+                    Enter Name: <apex:inputText value="{!AccountName}"/>
+                </apex:pageblocksection>
+         </apex:pageBlock>
+    </apex:form>
+</apex:page>

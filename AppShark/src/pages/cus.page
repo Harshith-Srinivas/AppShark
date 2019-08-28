@@ -1,0 +1,48 @@
+<!--Author : Madhusudhan
+ * Date : Aug 22 - 2018
+ * Description:- Display records corresponding object which is selected in picklist
+ * Modification History:-->
+<apex:page id="page" controller="DisplayRecordsforSelectedSobject">
+ <script>
+   //Dislaying list of records when object is selected in picklist
+    function getAllRecords()
+    {
+        //Holds object name which is selected in picklist
+        var vselectobject=document.getElementById("page:fm:pb:slectedobj").value;        
+        //Initializing table as empty
+        document.getElementById("records").innerHTML= "<b> All Records </b> <br/>" ;
+        //All the Records are retrieved using the remoting  manager and passing object name as parameter to remote action method
+        Visualforce.remoting.Manager.invokeAction(
+        '{!$RemoteAction.DisplayRecordsforSelectedSobject.getdata}',
+         vselectobject,
+         function(result, event)
+         {
+          //Iterate result and displaying records using div tag
+             var strTable = "<table><tr><th>-Record Name-</th><th>Record Id</th></tr>";
+              for(var i in result)
+              {
+                 var obj=result[i];
+                 //Reading result and assigning to div
+                  //document.getElementById("records").innerHTML+= obj['Name']==undefined?"":obj['Name'] +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ obj.Id +"<br/>" ;             
+                  if(obj.Id){
+                      var recName = obj['Name']==undefined? "" : obj['Name'];
+                      var recId = obj.Id;
+                      //console.log(obj);
+                      strTable+= "<tr><td>"+recName+"</td><td>"+recId+"</td></tr>";
+                  }
+              }
+             strTable+= "</table>";
+             document.getElementById("records").innerHTML = strTable;
+        });
+        }
+    </script>   
+  <apex:form id="fm" >
+        <apex:pageBlock id="pb">
+            <!-- Displaying picklist with list of custom objects, sets selected object value and invokes Javascript method -->
+            <apex:selectList id="slectedobj" size="1" onchange="getAllRecords()" >
+                <apex:selectOptions value="{!lstobjects}"/>                                
+            </apex:selectList>          
+        </apex:pageBlock>        
+    </apex:form>
+    <div id="records"/>
+</apex:page>

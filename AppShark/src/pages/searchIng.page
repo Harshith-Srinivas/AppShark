@@ -1,0 +1,21 @@
+<apex:page controller="Sch">
+    <apex:form >
+        <apex:pageBlock >
+            Name: <apex:inputText id="sch" value="{!searchText}"/>
+            <br/>
+            Email: <apex:inputText id="sch1" value="{!searchEmail}"/>
+            <br/>
+            Phone: <apex:inputText id="sch2" value="{!searchPhone}"/>
+            <br/>
+            <apex:commandButton value="Go!" action="{!search}"/>
+        </apex:pageBlock>
+        <apex:pageBlock >
+            <apex:pageBlockTable value="{!resultsCn}" var="ac">
+                <apex:column value="{!ac.Id}" />
+                <apex:column value="{!ac.Name}" />
+                <apex:column value="{!ac.Email}" />
+                <apex:column value="{!ac.Phone}" />
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

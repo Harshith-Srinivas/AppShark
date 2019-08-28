@@ -1,0 +1,22 @@
+<apex:page controller="stdObjects">
+    <apex:form >
+        <apex:actionFunction name="CallFieldMethod" reRender="fields"/>
+            <apex:pageBlock >
+                <apex:pageBlockSection >
+                <apex:selectList value="{!strObject}" size="1" multiselect="false" onchange="CallFieldMethod()">
+                    <apex:selectOptions value="{!selectObject}"/>
+                </apex:selectList>
+                </apex:pageBlockSection>
+            </apex:pageBlock>
+        	<apex:outputPanel id="fields" >
+             Field : 
+            <apex:pageBlock >
+            <apex:pageBlockSection rendered="{!strObject != null}">
+           		<apex:repeat var="a" value="{!lstFields}">
+                <apex:outputText value="{!a}"/>
+                </apex:repeat>
+            </apex:pageBlockSection>
+            </apex:pageBlock>
+        </apex:outputPanel>
+    </apex:form>
+</apex:page>

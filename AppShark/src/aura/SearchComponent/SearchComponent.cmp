@@ -1,0 +1,5 @@
+<aura:component>
+    <aura:registerEvent name="SearchEv" type="c:SearchEvent"/>
+    <aura:attribute name="Name" type="String"/>
+    <lightning:input name="input" label="Search" value="{!v.Name}" onkeyup="{!c.fireComp}"/>
+</aura:component>

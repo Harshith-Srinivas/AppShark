@@ -1,0 +1,8 @@
+<aura:component controller="RelatedContact" >
+	<aura:attribute name="contactNames" type="Contact"/>
+    <aura:handler name="compEvent" event="c:NewEventComponent" action="{!c.handlComponentEvent}"/>  
+    <c:NotifierComponent />
+    <aura:iteration items="{!v.contactNames}" var="c">
+    	<p>{!c.LastName}</p>
+    </aura:iteration>
+</aura:component>

@@ -1,0 +1,4 @@
+<apex:page standardController="Quote" extensions="attachPDF" action="{!attachPDFquote}">
+    <apex:outputText value="{!Quote.name}" rendered="false"/>
+    <apex:outputText value="{!Quote.Email}" rendered="false"/>
+</apex:page>

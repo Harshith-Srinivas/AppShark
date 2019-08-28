@@ -1,0 +1,24 @@
+<aura:component controller="Con" >
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute name="contactRows" type="Object[]"/>
+    
+    <div class="container">
+        <p>List of Contacts</p>
+		<table class="con">
+        	<thead>
+            	<tr>
+                	<th>ID</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <aura:iteration var="cell" items="{!v.contactRows}">
+                	<tr>
+                        <td><a href="{! '/'+cell.Id}"> {!cell.Id} </a></td>
+                    	<td> {!cell.Name} </td>
+                	</tr>
+				</aura:iteration>
+            </tbody>
+        </table>
+    </div>
+</aura:component>

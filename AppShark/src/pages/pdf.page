@@ -1,0 +1,10 @@
+<apex:page renderAs="PDF" standardController="Account" recordSetVar="accounts">
+    <apex:pageBlock >
+        <apex:pageBlockSection >
+            <apex:pageBlockTable value="{!accounts}" var="at">
+                <apex:column value="{!at.Name}" />
+                <apex:column value="{!at.Industry}" />
+            </apex:pageBlockTable>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

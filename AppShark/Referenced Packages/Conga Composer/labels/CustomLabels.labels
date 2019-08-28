@@ -1,0 +1,4112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>A_Button_Link_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>A Button Link Text</shortDescription>
+        <value>A button/link on the {0} object already exists with the name &quot;Conga_Composer_{1}&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>Access_Attachment_CSP_Conga_CT_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Access Attachment CSP Conga CT Text</shortDescription>
+        <value>You do not have access to Attachment, Conga_Solution_Parameter__c and/or Conga_Template__c objects</value>
+    </labels>
+    <labels>
+        <fullName>Access_CSP_Conga_CT_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Access CSP Conga CT Text</shortDescription>
+        <value>You do not have access to the Conga_Solution_Template__c and/or Conga_Template__c objects.</value>
+    </labels>
+    <labels>
+        <fullName>Access_Control_Violation</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Access Control Violation Warning</shortDescription>
+        <value>You do not have the level of access necessary to perform the operation you requested. Please contact the owner of the Conga Solution record or your administrator if access necessary.</value>
+    </labels>
+    <labels>
+        <fullName>Access_Control_Violation_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Access Control Violation Header Warning</shortDescription>
+        <value>Access control violation</value>
+    </labels>
+    <labels>
+        <fullName>Access_Control_Violation_NotAuthorizedToCreate</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Access Control Violation Warning</shortDescription>
+        <value>You are not authorized to create the {0} object.</value>
+    </labels>
+    <labels>
+        <fullName>Access_Control_Violation_NotAuthorizedToDelete</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Access Control Violation Warning</shortDescription>
+        <value>You are not authorized to delete the {0} object.</value>
+    </labels>
+    <labels>
+        <fullName>Access_Control_Violation_NotAuthorizedToDelete_Solution</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Access Control Violation Warning</shortDescription>
+        <value>You are not authorized to delete the Conga_Solution__c object.</value>
+    </labels>
+    <labels>
+        <fullName>Access_Control_Violation_NotAuthorizedToUpdate</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Access Control Violation Warning</shortDescription>
+        <value>You are not authorized to update the {0} object.</value>
+    </labels>
+    <labels>
+        <fullName>Access_Control_Violation_NotAuthorizedToView</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Access Control Violation Warning</shortDescription>
+        <value>You are not authorized to view the necessary fields on the {0} object.</value>
+    </labels>
+    <labels>
+        <fullName>Access_Control_Violation_NotAuthorizedToView_Query</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Access Control Violation Warning</shortDescription>
+        <value>You are not authorized to view necessary fields on the Conga_Merge_Query__c object.</value>
+    </labels>
+    <labels>
+        <fullName>Access_Control_Violation_NotAuthorizedToView_SolutionQuery</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Access Control Violation Warning</shortDescription>
+        <value>You are not authorized to view necessary fields on the Conga_Solution_Query__c object.</value>
+    </labels>
+    <labels>
+        <fullName>Access_Control_Violation_Null_Objects_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Access_Control Violation Null Objects Text</shortDescription>
+        <value>objects must not be set to null</value>
+    </labels>
+    <labels>
+        <fullName>Access_Control_Violation_Specific_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Access Control Violation Warning</shortDescription>
+        <value>Access Control violation - Type: {0} Reason: {1} Object: {2} Field: {3} Text: {4}</value>
+    </labels>
+    <labels>
+        <fullName>Access_The_Button_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Access The Button Text</shortDescription>
+        <value>Access the button by clicking on the Button/Link API Name.</value>
+    </labels>
+    <labels>
+        <fullName>Access_Violation_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Access Violation Text</shortDescription>
+        <value>Access Violation</value>
+    </labels>
+    <labels>
+        <fullName>Account_Brief_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Account Brief Description</shortDescription>
+        <value>Create account briefs that use the Account Object. Includes pre-built queries and Word templates.</value>
+    </labels>
+    <labels>
+        <fullName>Account_Brief_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Account Brief Label</shortDescription>
+        <value>Account Brief</value>
+    </labels>
+    <labels>
+        <fullName>Account_Name_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Account Name Title</shortDescription>
+        <value>Account Name</value>
+    </labels>
+    <labels>
+        <fullName>Action_Will_Overwrite_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Action Will Overwrite Text</shortDescription>
+        <value>Clicking &quot;{0}&quot; will overwrite the Current Button URL. An archive of the Current Button URL will be created in the {1}.</value>
+    </labels>
+    <labels>
+        <fullName>Actions_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Actions Label</shortDescription>
+        <value>Actions</value>
+    </labels>
+    <labels>
+        <fullName>Activity_Days_Followup</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Activity Logging</shortDescription>
+        <value>Days to Follow-Up</value>
+    </labels>
+    <labels>
+        <fullName>Activity_Log_After_Merging_Ask</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Log an activity?</shortDescription>
+        <value>Log an activity after merging?</value>
+    </labels>
+    <labels>
+        <fullName>Activity_Logging_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Description for Solution Manager&apos;s Behavior Settings Activity Logging</shortDescription>
+        <value>Log an event, a task, or an email you sent on the record you launched that was created with Composer.</value>
+    </labels>
+    <labels>
+        <fullName>Activity_Logging_IO_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BehaviorSettings: Activity Logging Error</shortDescription>
+        <value>Something went wrong with reading or writing your activity log settings. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Activity_Logging_Node</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Activity Logging Node Label</shortDescription>
+        <value>Activity Logging</value>
+    </labels>
+    <labels>
+        <fullName>Activity_Logging_Settings</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Activity Logging</shortDescription>
+        <value>Activity Logging</value>
+    </labels>
+    <labels>
+        <fullName>Activity_Logging_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Activity Logging Text</shortDescription>
+        <value>Activity Logging</value>
+    </labels>
+    <labels>
+        <fullName>Activity_Subject</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Activity Logging</shortDescription>
+        <value>Subject</value>
+    </labels>
+    <labels>
+        <fullName>Add_Button_To_Page_Layout_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Button To Page Layout Text</shortDescription>
+        <value>Add Button to Page Layout</value>
+    </labels>
+    <labels>
+        <fullName>Add_Details_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Details Text</shortDescription>
+        <value>Add Details</value>
+    </labels>
+    <labels>
+        <fullName>Add_Field</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Field</shortDescription>
+        <value>Add Field</value>
+    </labels>
+    <labels>
+        <fullName>Add_Field_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Field Text</shortDescription>
+        <value>To add a field simply select it then click &quot;Add Field&quot;. Or you can double-click the field to add it as well. If you hold the &quot;Control&quot; key you can select multiple fields and add them at once.</value>
+    </labels>
+    <labels>
+        <fullName>Add_Product_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add product Text</shortDescription>
+        <value>Add product</value>
+    </labels>
+    <labels>
+        <fullName>Add_Recipient</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Add Recipient Label</shortDescription>
+        <value>Add Recipient</value>
+    </labels>
+    <labels>
+        <fullName>Add_Recipient_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Add Recipient Label</shortDescription>
+        <value>Add Recipient</value>
+    </labels>
+    <labels>
+        <fullName>Add_Site_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Site Text</shortDescription>
+        <value>Add this site</value>
+    </labels>
+    <labels>
+        <fullName>Add_Solution_Details_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Add Solution Details Header</shortDescription>
+        <value>Add Solution Details</value>
+    </labels>
+    <labels>
+        <fullName>Add_Templates_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Templates Text</shortDescription>
+        <value>Add Templates</value>
+    </labels>
+    <labels>
+        <fullName>Add_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Text</shortDescription>
+        <value>Add</value>
+    </labels>
+    <labels>
+        <fullName>Add_To_Solution_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add To Solution Label</shortDescription>
+        <value>Add to Solution</value>
+    </labels>
+    <labels>
+        <fullName>Additional_To_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Additional To Label</shortDescription>
+        <value>Additional To</value>
+    </labels>
+    <labels>
+        <fullName>Adobe_Sign_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Adobe Sign is true.</shortDescription>
+        <value>Adobe Sign</value>
+    </labels>
+    <labels>
+        <fullName>Advanced_Filter_Available_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Advanced Filter Available Label</shortDescription>
+        <value>Advanced Filter Configuration is available. Scroll down to utilize this functionality.</value>
+    </labels>
+    <labels>
+        <fullName>Advanced_Filter_Now_Available_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Advanced Filter Now Available Label</shortDescription>
+        <value>Advanced Filter Configuration is now available. Scroll down to utilize this functionality.</value>
+    </labels>
+    <labels>
+        <fullName>Alias_Alphanumeric_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Alias Alphanumeric Text</shortDescription>
+        <value>Alias is alphanumeric only, starting with a letter, 2 - 20 characters supported.</value>
+    </labels>
+    <labels>
+        <fullName>Alias_Already_Used_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Alias Already Used Text</shortDescription>
+        <value>is already in use. Aliases must be unique across Reports and Queries used in this Solution. Please enter a different Alias.</value>
+    </labels>
+    <labels>
+        <fullName>Alias_Column_Width_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Alias Column Width Label</shortDescription>
+        <value>Alias Name column width</value>
+    </labels>
+    <labels>
+        <fullName>Alias_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Alias</shortDescription>
+        <value>Alias</value>
+    </labels>
+    <labels>
+        <fullName>Alias_Required_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Alias Required Text</shortDescription>
+        <value>Alias required. Alphanumeric only, starting with a letter, 2 - 20 characters supported.</value>
+    </labels>
+    <labels>
+        <fullName>Alias_Reserved_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Alias Reserved Text</shortDescription>
+        <value>is a reserved Alias and cannot be used. Please enter a different Alias.</value>
+    </labels>
+    <labels>
+        <fullName>All_Changes_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>All Changes Text</shortDescription>
+        <value>All changes are controlled by the Conga Solution record. Use the button below to return to the Conga Solution record.</value>
+    </labels>
+    <labels>
+        <fullName>Analyzing_Templates_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Analyzing Templates Label</shortDescription>
+        <value>Analyzing Template(s)</value>
+    </labels>
+    <labels>
+        <fullName>Another_Opened_Org_Merge_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Toast message to display when another opened org existed.</shortDescription>
+        <value>There is another opened SalesForce Org. Please close it first.</value>
+    </labels>
+    <labels>
+        <fullName>Assembling_Data_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Assembling Data Label</shortDescription>
+        <value>Assembling Data</value>
+    </labels>
+    <labels>
+        <fullName>Assign_Behaviors_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Assign Behaviors Text</shortDescription>
+        <value>Assign Behaviors</value>
+    </labels>
+    <labels>
+        <fullName>Attachment_Name</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Attachment Name</shortDescription>
+        <value>Attachment Name</value>
+    </labels>
+    <labels>
+        <fullName>Attachment_Retrieval_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BehaviorSettings: Attachment Retrieval Error</shortDescription>
+        <value>Something went wrong with retrieving your attachment settings. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Attachment_Save_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BehaviorSettings: Attachment Save Error</shortDescription>
+        <value>Something went wrong with saving your attachment settings. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Attachment_Settings_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Attachment Settings: Attachment settings header</shortDescription>
+        <value>Attachments</value>
+    </labels>
+    <labels>
+        <fullName>Attachment_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Attachment Text</shortDescription>
+        <value>Attachment</value>
+    </labels>
+    <labels>
+        <fullName>Attachment_Warning</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Attachment Warning</shortDescription>
+        <value>Cannot create file. File Name or file data is missing</value>
+    </labels>
+    <labels>
+        <fullName>Attachments</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Attachments</shortDescription>
+        <value>Attachments</value>
+    </labels>
+    <labels>
+        <fullName>Attachments_Info</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Attachments Info</shortDescription>
+        <value>Specifies the static Salesforce files or documents to be included with the merge process.</value>
+    </labels>
+    <labels>
+        <fullName>Attachments_Search</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Attachments Search</shortDescription>
+        <value>Search by Filename or Record ID</value>
+    </labels>
+    <labels>
+        <fullName>Attachments_Table_Section_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Attachments Table Section Description</shortDescription>
+        <value>Drag and drop to re-order the attachments in your quote</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Apex_Class_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Apex Class Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the ApexClass object.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Composer_QuickMerge_Fields_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Composer QuickMerge Fields Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Composer_QuickMerge__c object.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Conga_Email_Template_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Conga Email Template Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Conga_Solution_Parameter__c and/or Conga_Email_Template__c objects.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Conga_Merge_Query_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Conga Merge Query__c Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Conga_Merge_Query__c object.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Conga_Objects_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Conga Objects Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Conga_Solution__c, Conga_Template__c, Conga_Email_Template__c and/or Conga_Merge_Query__c objects</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Conga_Solution_Or_Email_Template_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Conga Solution Or Email Template Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Conga_Solution__c and/or Conga_Solution_Email_Template__c objects.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Conga_Solution_Or_Query_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Conga Solution Or Query Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Conga_Solution__c and/or Conga_Solution_Query__c objects.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Conga_Solution_Or_Weblink_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Conga Solution Or Weblink Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Conga_Solution__c and/or Weblink objects.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Conga_Solution_Organization_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Conga Solution Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Conga_Solution__c, Organization, Folder and/or Document objectsCannot create file. File Name or file data is missing</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Conga_Solution_Parameter_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Conga Solution Parameter Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Conga_Solution_Parameter__c object.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Conga_Solution_Query_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Conga Solution Query Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Conga_Solution_Report__c and/or Conga_Solution_Query__c objects.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Conga_Solution_Report_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Conga Solution Report Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Conga_Solution__c and/or Conga_Solution_Report__c objects.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Conga_Solution_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Conga Solution Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Conga_Solution__c object.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Conga_Template_Objects_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Conga Template Objects Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Conga_Template__c and/or Conga_Email_Template__c objects</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Document_Fields_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Document Fields Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Document object</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Document_Report_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Document Report Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Document and/or Report objects</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Folder_Fields_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Folder Fields Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Folder object</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_OpportunityLineItem_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization OpportunityLineItem Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the OpportunityLineItem object.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Opportunity_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Opportunity Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Opportunity object.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Organization_Object_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Organization Object Text</shortDescription>
+        <value>You are not authorized to view the Organization object.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_PriceBookEntry_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization PriceBookEntry Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the PriceBookEntry object.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Report_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Report Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Report object.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Sobject_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Sobject Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the{0} object.</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Weblink_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Authorization Weblink Text</shortDescription>
+        <value>You are not authorized to view the necessary fields on the Weblink object.</value>
+    </labels>
+    <labels>
+        <fullName>Available_Solution_Collection_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Available Solution Collection Text</shortDescription>
+        <value>Available Solution Collection</value>
+    </labels>
+    <labels>
+        <fullName>Available_Solutions_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Available Solutions Text</shortDescription>
+        <value>Available Solutions</value>
+    </labels>
+    <labels>
+        <fullName>BCC_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: BCC Label</shortDescription>
+        <value>BCC</value>
+    </labels>
+    <labels>
+        <fullName>Back_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Back Label</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Background Mode Settings Label</shortDescription>
+        <value>Would you like to enable background mode?</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Select_DS7_1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Background Mode Select DS7_1 option</shortDescription>
+        <value>Attach to Notes &amp; Attachments (DS7=1)</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Select_DS7_11</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Background Mode Select DS7_11 option</shortDescription>
+        <value>Attach to Salesforce Files (DS7=11)</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Select_DS7_111</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Background Mode Select DS7_111 option</shortDescription>
+        <value>Contracts Send for Negotiation UI (DS7=111)</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Select_DS7_112</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Background Mode Select DS7_112 option</shortDescription>
+        <value>Contracts Auto Send (DS7=112)</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Select_DS7_1141</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Background Mode Select DS7_1141 option</shortDescription>
+        <value>Conga Sign (DS7=1141)</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Select_DS7_1142</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Background Mode Select DS7_1142 option</shortDescription>
+        <value>Conga Sign API (DS7=1142)</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Select_DS7_12</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Background Mode Select DS7_12 option</shortDescription>
+        <value>Email Auto Delivery (DS7=12)</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Select_DS7_14</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Background Mode Select DS7_14 option</shortDescription>
+        <value>Adobe E-Sign Auto Delivery (DS7=14)</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Select_DS7_17</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Background Mode Select DS7_17 option</shortDescription>
+        <value>DocuSign Auto Delivery (DS7=17)</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Select_DS7_2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Background Mode Select DS7_2 option</shortDescription>
+        <value>Email (DS7=2)</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Select_DS7_3</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Background Mode Select DS7_3 option</shortDescription>
+        <value>Download (DS7=3)</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Select_DS7_4</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Background Mode Select DS7_4 option</shortDescription>
+        <value>Adobe E-Sign (DS7=4)</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Select_DS7_7</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Background Mode Select DS7_7 option</shortDescription>
+        <value>DocuSign (DS7=7)</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Select_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Background Mode Select Label</shortDescription>
+        <value>Select background mode option</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Settings_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Description for Solution Manager&apos;s Behavior Settings Background Mode</shortDescription>
+        <value>Background mode allows you to bypass the Composer window and jump into document creation.</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Settings_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Header for Solution Manager&apos;s Behavior Settings Background Mode</shortDescription>
+        <value>Background Mode</value>
+    </labels>
+    <labels>
+        <fullName>Background_Mode_Settings_Node</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Background Mode Settings Node Label</shortDescription>
+        <value>Background Mode</value>
+    </labels>
+    <labels>
+        <fullName>Behavior_Settings_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Description for Solution Manager&apos;s Behavior Settings step</shortDescription>
+        <value>Click on the link in the sidebar to set up your behavior settings for your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Behavior_Settings_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Header for Solution Manager&apos;s Behavior Settings step</shortDescription>
+        <value>Behavior Settings</value>
+    </labels>
+    <labels>
+        <fullName>Button_Already_On_Page_Layout_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Button Already On Page Layout Text</shortDescription>
+        <value>Button is already on all selected page layouts.</value>
+    </labels>
+    <labels>
+        <fullName>Button_Create_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Button Create Warning</shortDescription>
+        <value>Something went wrong with creating your button. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Button_Is_Not_On_Page_Layout_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Button Is Not On Page Layout Text</shortDescription>
+        <value>Button is not on any selected page layouts.</value>
+    </labels>
+    <labels>
+        <fullName>Button_Lightning_App_Builder_Finish_Step</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Button Lightning App Builder Finish Step</shortDescription>
+        <value>Go to Lightning App Builder</value>
+    </labels>
+    <labels>
+        <fullName>Button_Managed_Package_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Button Managed Package Text</shortDescription>
+        <value>Buttons may not be added to managed package page layouts. Buttons must be added to managed package page layouts manually.</value>
+    </labels>
+    <labels>
+        <fullName>Button_Not_Found_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Button Not Found Text</shortDescription>
+        <value>Button not found. Verify that the button API name on the Conga Solution record matches the button API name on the Master Object.</value>
+    </labels>
+    <labels>
+        <fullName>Button_Page_Layout_Finish_Step</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Button Page Layout Finish Step</shortDescription>
+        <value>Go to Page Layouts</value>
+    </labels>
+    <labels>
+        <fullName>Button_Successfully_Added_To_Page_Layout_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Button Successfully Added To Page Layout Text</shortDescription>
+        <value>Button successfully added to at least one page layout. Please see below for results.</value>
+    </labels>
+    <labels>
+        <fullName>Button_Updated_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Button Updated Text</shortDescription>
+        <value>{0} button updated.</value>
+    </labels>
+    <labels>
+        <fullName>Button_Url_Field_Updated_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Button Url Field Updated Text</shortDescription>
+        <value>Button URL field updated. Copy/paste the updated Button URL into the button or link URL field on the master object.</value>
+    </labels>
+    <labels>
+        <fullName>Buttons_May_Not_Be_Removed_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Button Managed Package Text</shortDescription>
+        <value>Buttons may not be removed from managed package page layouts via Conga Solution Manager. Buttons must be removed from managed package page layouts manually.</value>
+    </labels>
+    <labels>
+        <fullName>CC_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: CC Label</shortDescription>
+        <value>CC</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Button_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Cancel Button Text</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Check_Field_Level_Security_Setings_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Check Field Level Security Setings Text</shortDescription>
+        <value>Check the Field-Level Security settings of your Profile for these fields. It may be a field on a related list.</value>
+    </labels>
+    <labels>
+        <fullName>Check_The_Name_Field_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Check The Name Field Text</shortDescription>
+        <value>Change the Name field of the button on the Master Object to {0}.</value>
+    </labels>
+    <labels>
+        <fullName>Choose_Template_Type_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Choose Template Type Text</shortDescription>
+        <value>Choose Template Type</value>
+    </labels>
+    <labels>
+        <fullName>Click_Here_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Click Here Text</shortDescription>
+        <value>Click Here</value>
+    </labels>
+    <labels>
+        <fullName>Client_Letter_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Client Letter Description</shortDescription>
+        <value>Create client letters that use the Contact Object. Includes a pre-built Word template.</value>
+    </labels>
+    <labels>
+        <fullName>Client_Letter_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Client Letter Label</shortDescription>
+        <value>Client Letter</value>
+    </labels>
+    <labels>
+        <fullName>Close_Date_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Close Date Title</shortDescription>
+        <value>Close Date</value>
+    </labels>
+    <labels>
+        <fullName>Close_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Close Text</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>Collection_Failed_To_Get_Solution_List</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Toast message for the collection solutions Apex call failure</shortDescription>
+        <value>Server error. Failed to get the solutions list from Apex. Please try again.</value>
+    </labels>
+    <labels>
+        <fullName>Collection_Name_Already_Exists_Error_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Collection Name Already Exists Error Text</shortDescription>
+        <value>This Collection Name already exist, please change to proceed.</value>
+    </labels>
+    <labels>
+        <fullName>Collection_Name_Error_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Collection Name Error Text</shortDescription>
+        <value>Collection Name field can&apos;t be empty.</value>
+    </labels>
+    <labels>
+        <fullName>Collection_Name_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Collection Name Text</shortDescription>
+        <value>Collection Name</value>
+    </labels>
+    <labels>
+        <fullName>Collection_SF1_Need_To_Pick_A_sObject</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Collection_SF1_Need_To_Pick_A_sObject</shortDescription>
+        <value>With Salesforce 1 enabled, please select a binding Salesforce Object before saving.</value>
+    </labels>
+    <labels>
+        <fullName>Collection_Selection_No_Record</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Collection Selection No record display text</shortDescription>
+        <value>There are no Solution Collections available. Click create to build a new Solution Collection.</value>
+    </labels>
+    <labels>
+        <fullName>Collection_Sf1_Ajax_sObjectsList_Error_Toast</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Failed to reterieve the sObjectList from Apex server</shortDescription>
+        <value>Failed to reterieve the Salesforce Objects List from the server.</value>
+    </labels>
+    <labels>
+        <fullName>Collection_Sf1_Checkbox_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Set as SalesForce 1 Collection?</shortDescription>
+        <value>Set as Salesforce 1 Collection?</value>
+    </labels>
+    <labels>
+        <fullName>Collection_Sf1_Checkbox_Lable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Set as SalesForce 1 Collection?</shortDescription>
+        <value>Set as Salesforce 1 Collection?</value>
+    </labels>
+    <labels>
+        <fullName>Collection_Sf1_Duplicate_sObject_Error_Toast_Body</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Duplication Error toast body</shortDescription>
+        <value>&apos; has already been assigned for SF1 by another collection: &apos;</value>
+    </labels>
+    <labels>
+        <fullName>Collection_Sf1_Duplicate_sObject_Error_Toast_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Duplication Error</shortDescription>
+        <value>Duplication Error</value>
+    </labels>
+    <labels>
+        <fullName>Collection_Step_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Collection Step Text</shortDescription>
+        <value>Collection Step</value>
+    </labels>
+    <labels>
+        <fullName>Collection_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Collection Text</shortDescription>
+        <value>Collection</value>
+    </labels>
+    <labels>
+        <fullName>Composer_Solution_Name_Already_Exists_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Composer Solution Name Already Exists Text</shortDescription>
+        <value>A Composer Solution record with this Name (&quot;{0}&quot;) already exists for the {1} object. Composer Solution Name must be unique by Master Object.</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Composer_Button_Custom_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Composer Button Custom Text</shortDescription>
+        <value>Conga_Composer_{0} button added to {1} object.</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Composer_Description_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Description Composer Label</shortDescription>
+        <value>allows you to create and deliver robust, sophisticated documents with ease. Documents include presentations, reports, and quotes by merging data from any standard or custom object into richly-formatted templates.</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Composer_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Composer Header</shortDescription>
+        <value>Conga Document Generation</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Composer_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Composer Label</shortDescription>
+        <value>Conga Composer</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Composer_Link_Custom_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Composer Link Custom Text</shortDescription>
+        <value>Conga_Composer_{0} link added to Home Custom Links.</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Composer_Link_Master_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Composer Link Master Text</shortDescription>
+        <value>Conga_Composer_{0} link added to {1} object.</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Composer_Merge_Field_Select_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Composer Merge Field Label</shortDescription>
+        <value>Select your template file type</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Composer_Merge_Field_Select_Option_Excel_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Composer Merge Field Select Option Excel Label</shortDescription>
+        <value>Excel</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Composer_Merge_Field_Select_Option_Pdf_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Composer Merge Field Select Option Pdf Label</shortDescription>
+        <value>Pdf</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Composer_Merge_Field_Select_Option_Word_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Composer Merge Field Select Option Label</shortDescription>
+        <value>Word, PowerPoint or Email</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Composer_Overview_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Composer Overview Label</shortDescription>
+        <value>Overview of Conga Composer</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Email_Template_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The Lable of the button to create new CongaEmail Template</shortDescription>
+        <value>Create Conga Email Template</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Email_Template_EmailContent_SectionHeader</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Email Template EmailContent SectionHeader</shortDescription>
+        <value>Email Content</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Email_Template_HtmlBodyField</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Email Template HtmlBody Field</shortDescription>
+        <value>HTML Body</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Email_Template_Id_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Email Template Id Text</shortDescription>
+        <value>Conga Email Template ID must be 15 or 18 characters.</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Email_Template_Information_SectionHeader</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Email Template Information Section Header</shortDescription>
+        <value>Information</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Email_Template_Init_Loading_Failed_Toast</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Loading Conga Email Template Init Loading Failed Toast message</shortDescription>
+        <value>Loading Conga email templates failed. Please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Email_Template_Modal_Saved_Failed_Toast</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The toast message when save failed for the Conga Email Template Modal</shortDescription>
+        <value>Save Conga Email Template failed, please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Email_Template_Required</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Email Template Required</shortDescription>
+        <value>Conga Email Template is required (Name and ID).</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Email_Template_Saved_Deleted_Failed_Toast</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The toast message when save failed for Conga Email Template table</shortDescription>
+        <value>Failed to save the changes for the Conga Email Templates table.</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Email_Template_Table_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Email Template Table Header</shortDescription>
+        <value>Conga Email Templates</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Email_Template_TextBodyField</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Email Template TextBody Field</shortDescription>
+        <value>Text Body</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Global_Merge_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Global Merge Text</shortDescription>
+        <value>A Conga Global Merge Record has been created (Record ID: {0})</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Query_Added_Successfully_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Query Added Successfully Text</shortDescription>
+        <value>Conga Query added successfully.</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Query_Id_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Query Id Text</shortDescription>
+        <value>Conga Query ID must be 15 or 18 characters.</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Query_Required_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Query Required Text</shortDescription>
+        <value>Conga Query required.</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Report_Id_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Report Id Text</shortDescription>
+        <value>Report ID must be 15 or 18 characters.</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Sign_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text displayed on Merge Button</shortDescription>
+        <value>Conga Sign</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Solution_Already_Exists_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Solution Already Exists Text</shortDescription>
+        <value>There is already an existing solution with this name on same master object: {0} ({1})</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Solution_Name_Required_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga_Solution Name Required Text</shortDescription>
+        <value>Conga Solution Name is required. Alphanumeric characters, starting with a letter. Please update the Name field and re-save the record. Illegal characters will be automatically removed.</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Solution_Template_Limit_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Solution Template Limit Text</shortDescription>
+        <value>Only 10 templates are allowed per Conga Solution.</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Support_Link</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Support Link</shortDescription>
+        <value>Support.GetConga.Com</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Template_Id_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Template Id Text</shortDescription>
+        <value>Conga Template ID must be 15 or 18 characters</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Template_Required_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Conga Template Required Text</shortDescription>
+        <value>Conga Template is required (Name and ID).</value>
+    </labels>
+    <labels>
+        <fullName>Contact_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Contact Text</shortDescription>
+        <value>Contact</value>
+    </labels>
+    <labels>
+        <fullName>Convert_To_PDF_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Convert to PDF label</shortDescription>
+        <value>Convert to PDF?</value>
+    </labels>
+    <labels>
+        <fullName>Create_Account_Brief_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Create Account Brief Label</shortDescription>
+        <value>Create Account Brief - (CasesChart)</value>
+    </labels>
+    <labels>
+        <fullName>Create_Collection_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Create Collection Button Text</shortDescription>
+        <value>Create Collection</value>
+    </labels>
+    <labels>
+        <fullName>Create_Email_Quote_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Create Email Quote Label</shortDescription>
+        <value>Create and Email Quote - (Summary)</value>
+    </labels>
+    <labels>
+        <fullName>Create_New_Conga_Email_Template</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Create_New_Conga_Email_Template</shortDescription>
+        <value>Create New Conga Email Template</value>
+    </labels>
+    <labels>
+        <fullName>Create_New_Query_Button_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Create New Query Button Text</shortDescription>
+        <value>Create New Query</value>
+    </labels>
+    <labels>
+        <fullName>Create_New_Template_Button_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Create New Template Button Text</shortDescription>
+        <value>Create New Template</value>
+    </labels>
+    <labels>
+        <fullName>Create_Step_Delete_Solution_Modal_Body</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete the selected Solution body</shortDescription>
+        <value>Are you sure to delete this solution permanently?</value>
+    </labels>
+    <labels>
+        <fullName>Create_Step_Delete_Solution_Modal_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete the selected Solution</shortDescription>
+        <value>Delete solution</value>
+    </labels>
+    <labels>
+        <fullName>Create_Step_Solution_Table_Delete_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The tip of the delete icon for each row on the solution table.</shortDescription>
+        <value>delete this solution permanently</value>
+    </labels>
+    <labels>
+        <fullName>Create_Step_Solution_Table_Edit_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The tip of the edit icon for each row on the solution table.</shortDescription>
+        <value>edit this solution</value>
+    </labels>
+    <labels>
+        <fullName>Create_Step_Solution_Table_Header_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The Description column header for the Solution list table.</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>Create_Step_Solution_Table_Header_LastModifiedBy</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The LastModifiedBy column header for the Solution list table.</shortDescription>
+        <value>Last Modified By</value>
+    </labels>
+    <labels>
+        <fullName>Create_Step_Solution_Table_Header_SolutionName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The SolutionName column header for the Solution list table.</shortDescription>
+        <value>Solution Name</value>
+    </labels>
+    <labels>
+        <fullName>Create_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Create Text</shortDescription>
+        <value>Create</value>
+    </labels>
+    <labels>
+        <fullName>Current_Button_Url_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Current Button Url Text</shortDescription>
+        <value>(Current Button URL) does not match the Button URL in Progress field.</value>
+    </labels>
+    <labels>
+        <fullName>DML_Execution_Failure</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DML execution failed</shortDescription>
+        <value>DML execution failed.</value>
+    </labels>
+    <labels>
+        <fullName>DML_Execution_Failure_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DML execution failed</shortDescription>
+        <value>Execution failed.</value>
+    </labels>
+    <labels>
+        <fullName>Data_Invalid_Alias_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Data Step Invalid Alias Error</shortDescription>
+        <value>Aliases are required, must have 3-20 characters, and cannot contain spaces or special characters.</value>
+    </labels>
+    <labels>
+        <fullName>Data_Step_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Data Step Description</shortDescription>
+        <value>If your solution requires data related to your {0}, use this step to create and add SOQL queries to access the related content.</value>
+    </labels>
+    <labels>
+        <fullName>Data_Step_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Data Step Header</shortDescription>
+        <value>Add Data to a Solution</value>
+    </labels>
+    <labels>
+        <fullName>Data_Step_Table_Section_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Data Step Table Section Description</shortDescription>
+        <value>SOQL queries listed below are available for your solution. Add an Alias for each option. Aliases must be unique, include 3-20 characters, and cannot contain spaces or special characters.</value>
+    </labels>
+    <labels>
+        <fullName>Data_Step_Table_Section_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Data Step Table Section Header</shortDescription>
+        <value>SOQL Queries</value>
+    </labels>
+    <labels>
+        <fullName>Data_Unique_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Data Step Unique Alias Error</shortDescription>
+        <value>Each Alias must be unique and include 3-20 characters.</value>
+    </labels>
+    <labels>
+        <fullName>Delete_Button_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete Collection Reord</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>Delete_Conga_Email_Templates_Failed_Apex</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The Apex code of deleting Conga Email Templates Failed</shortDescription>
+        <value>Failed to delete or update the default Conga Email Templates.</value>
+    </labels>
+    <labels>
+        <fullName>Delete_Modal_Body</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The body of the delete modal</shortDescription>
+        <value>Are you sure you want to delete this Solution Collection? Please note the solutions will not be deleted.</value>
+    </labels>
+    <labels>
+        <fullName>Delete_Modal_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The header of the delete modal</shortDescription>
+        <value>Delete Solution Collection</value>
+    </labels>
+    <labels>
+        <fullName>Delete_Recipient</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Delete Recipient Label</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>Deploying_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Deploying Text</shortDescription>
+        <value>Deploying...</value>
+    </labels>
+    <labels>
+        <fullName>Deployment_Complete_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Deployment Complete Text</shortDescription>
+        <value>Deployment complete</value>
+    </labels>
+    <labels>
+        <fullName>Deployment_Generic_Error_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Deployment_Generic_Error_Text</shortDescription>
+        <value>{0} (Line: {1}: Column: {2}) : {3}</value>
+    </labels>
+    <labels>
+        <fullName>Description_Date_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Description Date Label</shortDescription>
+        <value>Description Date column width</value>
+    </labels>
+    <labels>
+        <fullName>Description_Here_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Description Here Label</shortDescription>
+        <value>Description here</value>
+    </labels>
+    <labels>
+        <fullName>Description_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Description</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Detail Label</shortDescription>
+        <value>Detail</value>
+    </labels>
+    <labels>
+        <fullName>Details</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Details</shortDescription>
+        <value>Details</value>
+    </labels>
+    <labels>
+        <fullName>Doc_Replace_Error_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Doc Replace Error Text</shortDescription>
+        <value>Doc Replace error</value>
+    </labels>
+    <labels>
+        <fullName>DocuSign_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DocuSign is true.</shortDescription>
+        <value>DocuSign</value>
+    </labels>
+    <labels>
+        <fullName>DocuSign_Save_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BehaviorSettings: DocuSign Behavior Settings Save Error</shortDescription>
+        <value>Something went wrong with saving your DocuSign behavior settings. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Document_Automation_Wizard_Description_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Document Automation Wizard Description Label</shortDescription>
+        <value>Follow the easy step-by-step process to create your custom solution.</value>
+    </labels>
+    <labels>
+        <fullName>Document_Automation_Wizard_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Document Automation Wizard Label</shortDescription>
+        <value>Document Automation Wizard</value>
+    </labels>
+    <labels>
+        <fullName>Docusign_Retrieval_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: DocuSign Retrieval Error.</shortDescription>
+        <value>Something went wrong with retrieving DocuSign behavior settings. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Done_Button_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Done button text</shortDescription>
+        <value>Done</value>
+    </labels>
+    <labels>
+        <fullName>Download_Didnt_Start_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Download Didnt Start Text</shortDescription>
+        <value>if the download doesn&apos;t start automatically.</value>
+    </labels>
+    <labels>
+        <fullName>Download_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Merge And Download Label</shortDescription>
+        <value>Download</value>
+    </labels>
+    <labels>
+        <fullName>Drop_Files_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Drop Files Text</shortDescription>
+        <value>or Drop Files</value>
+    </labels>
+    <labels>
+        <fullName>Dynamic_Merge_Field_Description_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Dynamic Merge Field Description Text</shortDescription>
+        <value>Enter a Salesforce merge field to set the Template you want to use in the solution. Ex: {!Account.Example_Template_Formula__c}</value>
+    </labels>
+    <labels>
+        <fullName>Dynamic_Merge_Field_Validation_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Dynamic Merge Field Validation Text</shortDescription>
+        <value>Please use the appropriate merge field syntax. Ex: {!Account.Example_Template_Formula__c}</value>
+    </labels>
+    <labels>
+        <fullName>Dynamic_Template_Retrieval_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Dynamic Template Retrieval Error</shortDescription>
+        <value>Unable to retrieve your dynamic templates. Please ensure the merge field is correct.</value>
+    </labels>
+    <labels>
+        <fullName>Dynamic_Template_Selection_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Dynamic Template Selection Text</shortDescription>
+        <value>Enable/Disable Dynamic Template Selection</value>
+    </labels>
+    <labels>
+        <fullName>Dynamic_Templates_Table_Section_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Dynamic Templates Table Section Description</shortDescription>
+        <value>Denotes the selected template based upon the sample record</value>
+    </labels>
+    <labels>
+        <fullName>ESignature_Add_Recipient_Button_Lable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>button label for the ESignature_Add_Recipient</shortDescription>
+        <value>Add Recipient</value>
+    </labels>
+    <labels>
+        <fullName>ESignature_CongaSign_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>conga sign radio button display text</shortDescription>
+        <value>Conga Sign</value>
+    </labels>
+    <labels>
+        <fullName>ESignature_Conga_Sign_Delete_Recipient_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>the tool tip of deleting one recipient icon</shortDescription>
+        <value>delete this recipient</value>
+    </labels>
+    <labels>
+        <fullName>ESignature_Conga_Sign_Find_Name_Fail_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>the text to display when fails to find the matching names.</shortDescription>
+        <value>Failed to find the matching name from Contact/User.</value>
+    </labels>
+    <labels>
+        <fullName>ESignature_Conga_Sign_Initialize_ApexCall_Fail</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>the text to display in the token when component initalize fails</shortDescription>
+        <value>Failed to initialize the Conga Sign.</value>
+    </labels>
+    <labels>
+        <fullName>ESignature_Conga_Sign_No_Signing_Order_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>the text to display when no signing order is checked.</shortDescription>
+        <value>No Signing order specified for document.</value>
+    </labels>
+    <labels>
+        <fullName>ESignature_Conga_Sign_Reach_Maximum_Number_Recipients</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>the failure text to display reached 10 maximum recipients.</shortDescription>
+        <value>You have reached the maximum of 10 recipients for Conga Sign.</value>
+    </labels>
+    <labels>
+        <fullName>ESignature_Conga_Sign_Recipient_Table_Name_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The header of the Recipient table.</shortDescription>
+        <value>Id</value>
+    </labels>
+    <labels>
+        <fullName>ESignature_Conga_Sign_Retrieval_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Conga Sign Retrieval Error.</shortDescription>
+        <value>Something went wrong with retrieving Conga Sign behavior settings. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>ESignature_Conga_Sign_Save_Recipient_Fail_Toast</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The toast message of saving all recipient to SF.</shortDescription>
+        <value>Saving Conga Sign parameters failed, please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>ESignature_Conga_Sign_Signing_Order_CheckBox</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>the checkbox label for Conga Sign Signing Order CheckBox.</shortDescription>
+        <value>Signing Order</value>
+    </labels>
+    <labels>
+        <fullName>ESignature_Conga_Sign_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Title to be displayed for Conga Sige</shortDescription>
+        <value>Add Recipients</value>
+    </labels>
+    <labels>
+        <fullName>ESignature_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Description for Solution Manager&apos;s Behavior Settings Activity Logging</shortDescription>
+        <value>Add digital signatures related to documents or agreements by using the Recipients Related List object in Salesforce.</value>
+    </labels>
+    <labels>
+        <fullName>ESignature_Save_Parameters_Button_Lable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The button label for the ESignature conga sign SaveCongaSignParameters</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Edit_Recipient</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Edit Recipient Label</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>EmailBehaviorSettings_Message_Default</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>EmailBehaviorSettings Message Default</shortDescription>
+        <value>Choose a docx, or drag it here to upload.</value>
+    </labels>
+    <labels>
+        <fullName>Email_Button_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Button Description</shortDescription>
+        <value>HTML Email body populated with data</value>
+    </labels>
+    <labels>
+        <fullName>Email_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Description for Solution Manager&apos;s Behavior Settings Activity Logging</shortDescription>
+        <value>Generate the desired merge output and attach it directly to an outbound email message or Conga Email Template.</value>
+    </labels>
+    <labels>
+        <fullName>Email_Node</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Email Node Label</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>Email_Retrieve_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BehaviorSettings: Email Retrieve Error</shortDescription>
+        <value>Something went wrong with retrieving your email behavior settings. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Email_Save_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BehaviorSettings: Email Save Error</shortDescription>
+        <value>Something went wrong with saving your email behavior settings. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Email_Settings_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: email settings header</shortDescription>
+        <value>Add Recipients</value>
+    </labels>
+    <labels>
+        <fullName>Email_Settings_Popover_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Settings Popover Header</shortDescription>
+        <value>Insert Merge Field</value>
+    </labels>
+    <labels>
+        <fullName>Email_Template_Builder_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Template Builder Label</shortDescription>
+        <value>Email Template Builder</value>
+    </labels>
+    <labels>
+        <fullName>Email_Template_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: email template label</shortDescription>
+        <value>Email Template</value>
+    </labels>
+    <labels>
+        <fullName>Email_Template_Name</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Template Name</shortDescription>
+        <value>Email Template Name</value>
+    </labels>
+    <labels>
+        <fullName>Email_Template_Name_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email_Template_Name_Label</shortDescription>
+        <value>Email Template Name</value>
+    </labels>
+    <labels>
+        <fullName>Email_Template_Subject</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email_Template_Subject</shortDescription>
+        <value>Subject</value>
+    </labels>
+    <labels>
+        <fullName>Email_Templates_Info</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Templates Info</shortDescription>
+        <value>Specify a Salesforce email template to be included with the merge process.</value>
+    </labels>
+    <labels>
+        <fullName>Email_Templates_List</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Templates</shortDescription>
+        <value>Email Templates</value>
+    </labels>
+    <labels>
+        <fullName>Email_Templates_Search</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search by SalesForce email template name</shortDescription>
+        <value>Search by SalesForce email template name</value>
+    </labels>
+    <labels>
+        <fullName>Email_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Text</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>Email_To_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Email To Label</shortDescription>
+        <value>To</value>
+    </labels>
+    <labels>
+        <fullName>Enter_Merge_Field_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Enter Merge Field Text</shortDescription>
+        <value>Enter merge field</value>
+    </labels>
+    <labels>
+        <fullName>Error_Composer_Create_Button_Individually_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error Composer Create Button Individually Text</shortDescription>
+        <value>Navigate to the new Conga Solution records and create buttons individually for more information.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Composer_Create_Button_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error Composer Create Button Text</shortDescription>
+        <value>Something went wrong during the creation of the Composer Buttons.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Required_Document_Folder_Not_Found_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error Required Document Folder Not Found Text</shortDescription>
+        <value>Required Document Folder with the DeveloperName of &quot;CongaSP_Templates_Folder&quot; cannot be found.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Retrieving_Salesforce_Related_List_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error Retrieving Salesforce Related List Text</shortDescription>
+        <value>Something went wrong with retrieving Salesforce related lists. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Expanding_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Expanding_Text</shortDescription>
+        <value>Expanding...</value>
+    </labels>
+    <labels>
+        <fullName>Failed_To_Delete_Object_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Failed To Delete Object Text</shortDescription>
+        <value>Failed to delete object</value>
+    </labels>
+    <labels>
+        <fullName>Failed_To_Find_Object_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Failed To Find Object Text</shortDescription>
+        <value>Failed to Find object</value>
+    </labels>
+    <labels>
+        <fullName>Failed_To_Insert_Object_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Failed To Insert Object Text</shortDescription>
+        <value>Failed to insert object</value>
+    </labels>
+    <labels>
+        <fullName>Failed_To_Query_Object_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Failed To Query Object Text</shortDescription>
+        <value>Failed to query object</value>
+    </labels>
+    <labels>
+        <fullName>Failed_To_Retrive_Url_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FailedTo Retrive Url Text</shortDescription>
+        <value>Failed to get url or something else went wrong.</value>
+    </labels>
+    <labels>
+        <fullName>Failed_To_Update_Object_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Failed To Update Object Text</shortDescription>
+        <value>Failed to update object</value>
+    </labels>
+    <labels>
+        <fullName>Field_Does_Not_Exist_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Field Does Not Exist Text</shortDescription>
+        <value>The field {0} does not exist.</value>
+    </labels>
+    <labels>
+        <fullName>Field_Not_Found_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Field Not Found Text</shortDescription>
+        <value>Field not found</value>
+    </labels>
+    <labels>
+        <fullName>File_Download_Failed_Toast</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>File download failed</shortDescription>
+        <value>There was an issue downloading the file.</value>
+    </labels>
+    <labels>
+        <fullName>File_Loading_Error_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>File Loading Error Text</shortDescription>
+        <value>Error loading file.</value>
+    </labels>
+    <labels>
+        <fullName>File_Max_Limit_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>File_Max_Limit_Text</shortDescription>
+        <value>File size cannot exceed {0} bytes. Selected file size: {1}</value>
+    </labels>
+    <labels>
+        <fullName>File_Not_Selected_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>File Not Selected Text</shortDescription>
+        <value>No file has been selected.</value>
+    </labels>
+    <labels>
+        <fullName>Filename_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Filename label</shortDescription>
+        <value>Filename</value>
+    </labels>
+    <labels>
+        <fullName>Filename_Note_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Filename Note label</shortDescription>
+        <value>Filenames can include letters, numbers, dashes, underscores, and periods. Exclamation points and braces can be used with dynamic text only.</value>
+    </labels>
+    <labels>
+        <fullName>Files_Button_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Files Button Description</shortDescription>
+        <value>Word, Excel, Powerpoint, PDF</value>
+    </labels>
+    <labels>
+        <fullName>Files_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Files Text</shortDescription>
+        <value>Files</value>
+    </labels>
+    <labels>
+        <fullName>Filesettings_Retrieval_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message shown when there is an error retrieving the users file settings</shortDescription>
+        <value>Something went wrong with retrieving Generated Filed Settings. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Filesettings_Save_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message shown when there is an error saving the users file settings</shortDescription>
+        <value>Something went wrong with saving Generated Filed Settings. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Find_A_Sample_Record_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Find A Sample Record Text</shortDescription>
+        <value>Find a sample record.</value>
+    </labels>
+    <labels>
+        <fullName>Find_A_Sample_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Find A Sample Text</shortDescription>
+        <value>Find a sample</value>
+    </labels>
+    <labels>
+        <fullName>Follow_Up_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Follow Up Text</shortDescription>
+        <value>Follow Up</value>
+    </labels>
+    <labels>
+        <fullName>For_More_Information_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>For More Information Label</shortDescription>
+        <value>For more information, please visit our support site at</value>
+    </labels>
+    <labels>
+        <fullName>Functionality_Limited_CampaignMember_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Functionality Limited CampaignMember Text</shortDescription>
+        <value>Functionality is limited to showing only IDs for the CampaignMember object.</value>
+    </labels>
+    <labels>
+        <fullName>Functionality_Limited_OrderItem_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Functionality Limited OrderItem Text</shortDescription>
+        <value>Functionality is limited to showing only IDs for the OrderItem object.</value>
+    </labels>
+    <labels>
+        <fullName>Gather_Data_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Gather Data Text</shortDescription>
+        <value>Gather Data</value>
+    </labels>
+    <labels>
+        <fullName>Gathering_Templates_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Gathering Templates Label</shortDescription>
+        <value>Gathering Template(s)</value>
+    </labels>
+    <labels>
+        <fullName>General_Node</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: General Node Label</shortDescription>
+        <value>General</value>
+    </labels>
+    <labels>
+        <fullName>GenerateFile_Settings_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Generate File settings header</shortDescription>
+        <value>Generated File</value>
+    </labels>
+    <labels>
+        <fullName>Generated_File_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Description for Solution Manager&apos;s Behavior Settings Generated File</shortDescription>
+        <value>View files that were created and save a copy if needed.</value>
+    </labels>
+    <labels>
+        <fullName>Generated_File_Settings_Node</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Generated File Settings Node Label</shortDescription>
+        <value>Generated File</value>
+    </labels>
+    <labels>
+        <fullName>Generic_Exception_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Generic Exception Text</shortDescription>
+        <value>Exception Thrown - Message: {0} Line Number: {1}</value>
+    </labels>
+    <labels>
+        <fullName>Get_Email_Templates_Info_Failed_Apex</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Get_Email_Templates_Info_Failed_Apex</shortDescription>
+        <value>Failed to get the email templates info for this solution. Please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>Go_To_Conga_Solution_Tab_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Go To Conga Solution Tab Text</shortDescription>
+        <value>Go to the Conga Solutions Setup tab to add the required Remote Sites.</value>
+    </labels>
+    <labels>
+        <fullName>Green_Checkmarks_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Green_Checkmarks_Text</shortDescription>
+        <value>Green check marks indicate pages with this button on that layout.</value>
+    </labels>
+    <labels>
+        <fullName>Group_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Group Text</shortDescription>
+        <value>Group:</value>
+    </labels>
+    <labels>
+        <fullName>Has_Been_Deleted_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Has_Been_Deleted_Text</shortDescription>
+        <value>{0} has been deleted. To re-create the button, click &quot;Save&quot; and then click &quot;Create Button&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>If_One_Or_More_Pages_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>If One Or More Pages Text</shortDescription>
+        <value>If one or more pages was not modified as expected, please try those pages individually for more information.</value>
+    </labels>
+    <labels>
+        <fullName>Ignore_Any_Success_Message_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Ignore Any Success Message Text</shortDescription>
+        <value>IGNORE ANY SUCCESS MESSAGES ON THIS PAGE!</value>
+    </labels>
+    <labels>
+        <fullName>In_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>In Text</shortDescription>
+        <value>in</value>
+    </labels>
+    <labels>
+        <fullName>Insert_Button_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Insert Button Text</shortDescription>
+        <value>Insert</value>
+    </labels>
+    <labels>
+        <fullName>Insert_Button_Text_Attachment</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Insert Button Text for Attachment</shortDescription>
+        <value>Insert Attachment Id</value>
+    </labels>
+    <labels>
+        <fullName>Insert_Button_Text_Email_Template</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Insert Button Text for Email Template</shortDescription>
+        <value>Insert Email Template Id</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_Conga_Query_Id_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Invalid Conga Query Id Text</shortDescription>
+        <value>Invalid Conga Query ID.</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_Value_For_SharingMode_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Invalid Value For SharingMode Text</shortDescription>
+        <value>Invalid value for SharingMode</value>
+    </labels>
+    <labels>
+        <fullName>Is_Default_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The header of Is_Default field in the Conga Email Template datatable in DAW</shortDescription>
+        <value>Is Default</value>
+    </labels>
+    <labels>
+        <fullName>Is_Mandatory_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Is Mandatory label</shortDescription>
+        <value>Is This Mandatory?</value>
+    </labels>
+    <labels>
+        <fullName>Just_Master_Object_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Just_Master_Object_Label</shortDescription>
+        <value>Just the master object</value>
+    </labels>
+    <labels>
+        <fullName>Last_Modified_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Last Modified</shortDescription>
+        <value>Last Modified</value>
+    </labels>
+    <labels>
+        <fullName>Launch_Quick_Start_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Launch Quick Start Label</shortDescription>
+        <value>Launch Quick Start</value>
+    </labels>
+    <labels>
+        <fullName>Launch_Wizard_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Launch Wizard Label</shortDescription>
+        <value>Launch Wizard</value>
+    </labels>
+    <labels>
+        <fullName>Learn_More_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Learn more Label</shortDescription>
+        <value>Learn more</value>
+    </labels>
+    <labels>
+        <fullName>Link_Updated_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Link Updated Text</shortDescription>
+        <value>{0} link updated.</value>
+    </labels>
+    <labels>
+        <fullName>Loading_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Loading Label</shortDescription>
+        <value>Loading</value>
+    </labels>
+    <labels>
+        <fullName>Master_Object_Required_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Master Object Required Text</shortDescription>
+        <value>Master Object required.</value>
+    </labels>
+    <labels>
+        <fullName>Maximum_Reports_Shown_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Maximum Reports Shown Text</shortDescription>
+        <value>A maximum of 1,000 Reports are shown. If the desired Report is not listed, please navigate to the Report and retrieve its record ID.</value>
+    </labels>
+    <labels>
+        <fullName>MergeController_Failed_To_Get_CollectionId_For_SF1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>MergeController_Failed_To_Get_CollectionId_For_SF1</shortDescription>
+        <value>Failed to get the collectionId, please make sure to setup a Conga Collection with SF1 enabled in DAW for this sObject type.</value>
+    </labels>
+    <labels>
+        <fullName>Merge_And_Download_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Merge And Download Label</shortDescription>
+        <value>Merge and Download</value>
+    </labels>
+    <labels>
+        <fullName>Merge_Button_Disabled_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text displayed next to disabled Merge Button</shortDescription>
+        <value>You must select a template before you can perform a merge.</value>
+    </labels>
+    <labels>
+        <fullName>Merge_Button_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text displayed on Merge Button</shortDescription>
+        <value>Merge and {0}</value>
+    </labels>
+    <labels>
+        <fullName>Merge_Error_Describe_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Merge Error Describe Text</shortDescription>
+        <value>The following error occurred during document generation:</value>
+    </labels>
+    <labels>
+        <fullName>Merge_Error_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Merge Error Text</shortDescription>
+        <value>failed to generate</value>
+    </labels>
+    <labels>
+        <fullName>Merge_Error_Try_Again</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Merge_Error_Try_Again</shortDescription>
+        <value>Click the button to try to generate the document again.</value>
+    </labels>
+    <labels>
+        <fullName>Merge_Field_Helper_Available_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Merge Field Helper Available Text</shortDescription>
+        <value>The merge field helper is now available. Scroll down to utilize this functionality.</value>
+    </labels>
+    <labels>
+        <fullName>Merge_Successful_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Merge Successful Text</shortDescription>
+        <value>was generated successfully.</value>
+    </labels>
+    <labels>
+        <fullName>Merging_Data_With_Templates_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Merging Data With Template(s) Label</shortDescription>
+        <value>Merging Data with Template(s)</value>
+    </labels>
+    <labels>
+        <fullName>Metadata_Api_Not_Available_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Metadata Api Not Available Text</shortDescription>
+        <value>The Metadata API is not available in Salesforce Professional Edition. This functionality is unavailable.</value>
+    </labels>
+    <labels>
+        <fullName>Name_Column_Width_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Name Column Width Label</shortDescription>
+        <value>Name column width</value>
+    </labels>
+    <labels>
+        <fullName>Name_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Name Label</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>Next_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Next Label</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>No_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No</shortDescription>
+        <value>No</value>
+    </labels>
+    <labels>
+        <fullName>No_Page_Layout_Selected_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No Page Layout Selected Text</shortDescription>
+        <value>No page layouts selected. Please select at least one page layout and try again.</value>
+    </labels>
+    <labels>
+        <fullName>No_Recipients</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: No Recipients Label</shortDescription>
+        <value>There are no recipients.</value>
+    </labels>
+    <labels>
+        <fullName>No_Valid_Conga_Email_Template_Records_Found_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No Valid Email Template Records Found Text</shortDescription>
+        <value>No valid Conga Email Template records found. Click &quot;Create New Conga Email Template Record&quot; to create one. You have at least one Conga Email Template Group defined. Make sure that you include appropriate Template Group values on your Conga Email Template record(s).</value>
+    </labels>
+    <labels>
+        <fullName>No_Valid_Conga_Query_Records_Found_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No Valid Conga Query Records Found Text</shortDescription>
+        <value>No valid Conga Query records found. Click &quot;Create New Conga Query Record&quot; to create one.</value>
+    </labels>
+    <labels>
+        <fullName>No_Valid_Conga_Teplate_Records_Found_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No Valid Conga Teplate Records Found Text</shortDescription>
+        <value>No valid Conga Template records found. Click &quot;Create New Conga Template Record&quot; to create one.</value>
+    </labels>
+    <labels>
+        <fullName>No_Valid_Report_Found_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No Valid Report Found Text</shortDescription>
+        <value>No valid Report found. Click &quot;Create New Report&quot; to create one.</value>
+    </labels>
+    <labels>
+        <fullName>No_Valid_Sample_Record_For_Sobject_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No Valid Sample Record For Sobject Text</shortDescription>
+        <value>No valid sample records found for the {0}. Create a new {1} and click the refresh icon on the table below.</value>
+    </labels>
+    <labels>
+        <fullName>No_Valid_Sample_Record_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No Valid Sample Record Text</shortDescription>
+        <value>No valid sample records found for the {0} object. Click Return to Solution Record.</value>
+    </labels>
+    <labels>
+        <fullName>Not_Quite_Sure_Finish_Step_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Not Quite Sure Finish Step Label</shortDescription>
+        <value>Not quite sure how? Let us show you.</value>
+    </labels>
+    <labels>
+        <fullName>Null_Or_Empty_Parameter_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Null Or Empty Parameter Text</shortDescription>
+        <value>null or empty parameter</value>
+    </labels>
+    <labels>
+        <fullName>Oauth_Success_Sf1_0</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Oauth_Success_Sf1_0</shortDescription>
+        <value>Authenticating...</value>
+    </labels>
+    <labels>
+        <fullName>Oauth_Success_Sf1_1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Oauth_Success_Sf1_1</shortDescription>
+        <value>Your authentication was successful!</value>
+    </labels>
+    <labels>
+        <fullName>Oauth_Success_Sf1_2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Oauth_Success_Sf1_2</shortDescription>
+        <value>To complete the merge, please close this window to navigate back to the Salesforce record you were on.</value>
+    </labels>
+    <labels>
+        <fullName>Off_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Off</shortDescription>
+        <value>Off</value>
+    </labels>
+    <labels>
+        <fullName>One_Time_Setup_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>One Time Setup Label</shortDescription>
+        <value>One Time Setup</value>
+    </labels>
+    <labels>
+        <fullName>Only_One_Conga_Email_Template_Allowed_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Only One Conga Email Template Allowed Text</shortDescription>
+        <value>Only one Conga Email Template is allowed per Conga Solution. To make changes, modify the existing record or delete and add a new one.</value>
+    </labels>
+    <labels>
+        <fullName>Opp_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Opp Label</shortDescription>
+        <value>Opp</value>
+    </labels>
+    <labels>
+        <fullName>Opportunity_Master_Object_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Opportunity Master Object Label</shortDescription>
+        <value>Opportunity - (Master Object)</value>
+    </labels>
+    <labels>
+        <fullName>Opportunity_Quote_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Opportunity Quote Label</shortDescription>
+        <value>Opportunity Quote</value>
+    </labels>
+    <labels>
+        <fullName>Opportunity_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Opportunity Text</shortDescription>
+        <value>Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>Output_Action</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Output Action</shortDescription>
+        <value>Output Action</value>
+    </labels>
+    <labels>
+        <fullName>PV_Replacement_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PV Replacement Error</shortDescription>
+        <value>There was an error replacing PV values in your query. Please correct the query and try again.</value>
+    </labels>
+    <labels>
+        <fullName>Page_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Page Label</shortDescription>
+        <value>page</value>
+    </labels>
+    <labels>
+        <fullName>Parameter_Entry_Add_Behavior</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Behavior</shortDescription>
+        <value>Add Behavior</value>
+    </labels>
+    <labels>
+        <fullName>Parameter_Entry_Add_Behavior_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The label of the Add Additional Behavior Button</shortDescription>
+        <value>Add Behavior</value>
+    </labels>
+    <labels>
+        <fullName>Parameter_Entry_Delete_Parameter_Icon_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>the tip to be display when hover over the delete icon in the row</shortDescription>
+        <value>delete this behavior</value>
+    </labels>
+    <labels>
+        <fullName>Parameter_Entry_Delete_Parameter_Modal_Body</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Are you sure you want to delete this Behavior?</shortDescription>
+        <value>Delete Selected Behavior?</value>
+    </labels>
+    <labels>
+        <fullName>Parameter_Entry_Delete_Parameter_Modal_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The modal header for deleting one parameter</shortDescription>
+        <value>Delete Selected Behavior</value>
+    </labels>
+    <labels>
+        <fullName>Parameter_Entry_Initialization_Fail_Toast</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The modal header for deleting one parameter</shortDescription>
+        <value>Failed to retrieve the existing behaviors.</value>
+    </labels>
+    <labels>
+        <fullName>Parameter_Entry_No_Parameter</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The text to display if there is no parameter.</shortDescription>
+        <value>There are no behaviors.</value>
+    </labels>
+    <labels>
+        <fullName>Parameter_Entry_Parameter_Must_Use_UI</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The text to display if a parameter can only be added via another UI component.</shortDescription>
+        <value>This parameter needs to be included from the Behavior Settings section that corresponds to this functionality.</value>
+    </labels>
+    <labels>
+        <fullName>Parameter_Entry_Parameter_Not_Allowed</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The text to display if a parameter is not allowed.</shortDescription>
+        <value>Parameter is not available for use in this product</value>
+    </labels>
+    <labels>
+        <fullName>Parameter_Entry_Save</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save Additional Behaviors</shortDescription>
+        <value>Save Additional Behaviors</value>
+    </labels>
+    <labels>
+        <fullName>Parameter_Entry_Save_Dupilicate_Fail_Toast</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save Additional Behaviors fails since duplication</shortDescription>
+        <value>This parameter already exists.</value>
+    </labels>
+    <labels>
+        <fullName>Parameter_Entry_Save_Fail_Toast</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save Additional Behaviors fails</shortDescription>
+        <value>Failed to save the parameters.</value>
+    </labels>
+    <labels>
+        <fullName>Parameter_Entry_Table_Name_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The Name column for the parameter table</shortDescription>
+        <value>NAME</value>
+    </labels>
+    <labels>
+        <fullName>Parameter_Entry_Table_Value_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The Value column for the parameter table</shortDescription>
+        <value>VALUE</value>
+    </labels>
+    <labels>
+        <fullName>Parameter_Entry_Value_Input_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Parameter_Entry_Value_Input_Label</shortDescription>
+        <value>Value</value>
+    </labels>
+    <labels>
+        <fullName>Parameters_Missing</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Parameters_Missing</shortDescription>
+        <value>Parameters missing</value>
+    </labels>
+    <labels>
+        <fullName>Please_Change_Solution_Name_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please Change Solution Name Text</shortDescription>
+        <value>Please change Conga Solution Name and try again.</value>
+    </labels>
+    <labels>
+        <fullName>Please_Choose_Different_Solution_Name_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please Choose Different Solution Name Text</shortDescription>
+        <value>Please choose a different Conga Solution Name or a different Master Object and try again. A button/link on the {0} object already exists with the name &quot;{1}&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>Please_Confirm_Merge_Field_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please Confirm Merge Field Text</shortDescription>
+        <value>Please confirm the merge field and function syntax before continuing.</value>
+    </labels>
+    <labels>
+        <fullName>Please_Select_Solutions_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please Select Solutions Text</shortDescription>
+        <value>Please select solution(s) to proceed.</value>
+    </labels>
+    <labels>
+        <fullName>Post_Install_Email_Message_1_text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Email Message 1 text</shortDescription>
+        <value>Hello Conductor user,</value>
+    </labels>
+    <labels>
+        <fullName>Post_Install_Email_Message_2_text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Email Message 2 text</shortDescription>
+        <value>Congratulations! You just successfully upgraded Conga Composer. Don&apos;t forget to refresh your Salesforce tokens for Conductor.</value>
+    </labels>
+    <labels>
+        <fullName>Post_Install_Email_Message_3_text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Email Message 3 text</shortDescription>
+        <value>For more information on how to refresh your token, see:</value>
+    </labels>
+    <labels>
+        <fullName>Post_Install_Email_Message_4_text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Email Message 4 text</shortDescription>
+        <value>https://support.getconga.com/Conga_Composer/Conga_Conductor/Troubleshooting_Conductor/Refreshing_your_Salesforce_tokens.</value>
+    </labels>
+    <labels>
+        <fullName>Post_Install_Email_Message_5_text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Email Message 5 text</shortDescription>
+        <value>Cheers,</value>
+    </labels>
+    <labels>
+        <fullName>Post_Install_Email_Message_6_text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Email Message 6 text</shortDescription>
+        <value>Your friends at Conga</value>
+    </labels>
+    <labels>
+        <fullName>Post_Merge_Distribution_Node</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Post Merge Distribution Node Label</shortDescription>
+        <value>Post Merge Distribution</value>
+    </labels>
+    <labels>
+        <fullName>Preview_Solution</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Preview Solution</shortDescription>
+        <value>Preview Solution</value>
+    </labels>
+    <labels>
+        <fullName>Previous_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Previous Label</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Contact_Custom_Field_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Primary Contact Custom Field Label</shortDescription>
+        <value>Custom Field</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Contact_Default_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Primary Contact Default Label</shortDescription>
+        <value>Default SBQQ__PrimaryContact__c</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Contact_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Primary Contact Description</shortDescription>
+        <value>Choose the primary contact for your solution. For more information visit our support site.</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Contact_Enter_Custom_Field_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Primary Enter Custom Field Label</shortDescription>
+        <value>Enter Salesforce Field containing Contact Lookup</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Contact_Node</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Primary Contact Node</shortDescription>
+        <value>Primary Contact</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Contact_Retrieval_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Primary Contact Retrieval Error.</shortDescription>
+        <value>Something went wrong with retrieving Primary Contact behavior settings. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Processing_Error_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Processing Error Header Warning</shortDescription>
+        <value>Processing error</value>
+    </labels>
+    <labels>
+        <fullName>Processing_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Loading Label</shortDescription>
+        <value>Processing</value>
+    </labels>
+    <labels>
+        <fullName>QVAR_Replacement_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>QVAR Replacement Error</shortDescription>
+        <value>There was an error replacing QVAR values in your query. Please correct the query and try again.</value>
+    </labels>
+    <labels>
+        <fullName>Query_Retrieve_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Query Retrieve Error</shortDescription>
+        <value>Something went wrong with retrieving your queries. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Query_Save_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Query Save Error</shortDescription>
+        <value>Something went wrong with saving your queries. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Quick_Start_Description_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Quick Start Quick_Start_Description Label</shortDescription>
+        <value>Select a pre-built solution best suited for your needs.</value>
+    </labels>
+    <labels>
+        <fullName>Quick_Start_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Quick Start Label</shortDescription>
+        <value>Quick Start</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Object_Warning</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Quote object not enabled.</shortDescription>
+        <value>It appears you do not have the Quote object enabled. The Quote object is required for the Sales Quote Quick Start, please go to Setup &gt; Customize &gt; Quotes &gt; Quotes Settings to enable.</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Quote Text.</shortDescription>
+        <value>Quote</value>
+    </labels>
+    <labels>
+        <fullName>Recipient_Address_Recipients</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Recipient Address Recipients Label</shortDescription>
+        <value>Address Recipients</value>
+    </labels>
+    <labels>
+        <fullName>Recipient_Carbon_Copy</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Recipient Carbon Copy Label</shortDescription>
+        <value>Carbon Copy</value>
+    </labels>
+    <labels>
+        <fullName>Recipient_Certified_Delivery</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Recipient Certified Delivery Label</shortDescription>
+        <value>Certified Delivery</value>
+    </labels>
+    <labels>
+        <fullName>Recipient_Id</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Recipient Id Label</shortDescription>
+        <value>Id</value>
+    </labels>
+    <labels>
+        <fullName>Recipient_Message_Envelope</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Recipient Message Envelope Label</shortDescription>
+        <value>Message Envelope</value>
+    </labels>
+    <labels>
+        <fullName>Recipient_Role</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Recipient Role Label</shortDescription>
+        <value>Role</value>
+    </labels>
+    <labels>
+        <fullName>Recipient_Signer</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Recipient Signer Label</shortDescription>
+        <value>Signer</value>
+    </labels>
+    <labels>
+        <fullName>Recipient_Signing_Order</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Recipient Signing Order Label</shortDescription>
+        <value>Signing Order</value>
+    </labels>
+    <labels>
+        <fullName>Recipient_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Recipient Text</shortDescription>
+        <value>Recipient</value>
+    </labels>
+    <labels>
+        <fullName>Recipient_Type</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Recipient Type Label</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>Record_Does_Not_Exist_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Record Does Not Exist Text</shortDescription>
+        <value>Record does not exist or not shared with current user</value>
+    </labels>
+    <labels>
+        <fullName>Record_Retrieve_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Record Retrieve Error</shortDescription>
+        <value>Something went wrong with retrieving your records. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Record_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Record Text</shortDescription>
+        <value>record.</value>
+    </labels>
+    <labels>
+        <fullName>Records_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Records Label</shortDescription>
+        <value>records</value>
+    </labels>
+    <labels>
+        <fullName>Remote_Site_Settings_Auto_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Remote Site Settings Auto Button Label</shortDescription>
+        <value>Yes! Automatically Add Remote Sites</value>
+    </labels>
+    <labels>
+        <fullName>Remote_Site_Settings_Auto_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Remote Site Settings Auto Label</shortDescription>
+        <value>Remote Sites that will be automatically added:</value>
+    </labels>
+    <labels>
+        <fullName>Remote_Site_Settings_Manual_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Remote Site Settings Manual Label</shortDescription>
+        <value>Or you can add the remote sites manually:</value>
+    </labels>
+    <labels>
+        <fullName>Remote_Site_Settings_Modal_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Remote Site Settings Modal Header</shortDescription>
+        <value>Composer would like to add remote sites so that we can automatically create your buttons for you. Does that sound awesome or what?</value>
+    </labels>
+    <labels>
+        <fullName>Replacement_Text_Required_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Replacement Text Required Label</shortDescription>
+        <value>Replacement text required.</value>
+    </labels>
+    <labels>
+        <fullName>Report_Id_Must_Start_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Report Id Must Start Text</shortDescription>
+        <value>Report ID must start with 00O.</value>
+    </labels>
+    <labels>
+        <fullName>Report_Required_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Report Required Text</shortDescription>
+        <value>Report required.</value>
+    </labels>
+    <labels>
+        <fullName>Reports_Added_Manually_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Reports Added Manually Text</shortDescription>
+        <value>Report added successfully.</value>
+    </labels>
+    <labels>
+        <fullName>Request_Completed_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Request Completed Text</shortDescription>
+        <value>Request completed</value>
+    </labels>
+    <labels>
+        <fullName>Request_In_Progress_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Request In Progress Text</shortDescription>
+        <value>Request in progress...</value>
+    </labels>
+    <labels>
+        <fullName>Retrieving_Metadata_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Retrieving Metadata Text</shortDescription>
+        <value>Retrieving metadata....</value>
+    </labels>
+    <labels>
+        <fullName>Sales_Proposal_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sales Proposal Description</shortDescription>
+        <value>Create sales proposals that use the Opportunity and Opportunity line items. Includes pre-built Word and email templates.</value>
+    </labels>
+    <labels>
+        <fullName>Sales_Proposal_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sales Proposal Label</shortDescription>
+        <value>Sales Proposal</value>
+    </labels>
+    <labels>
+        <fullName>Sales_Quote_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sales Quote Description</shortDescription>
+        <value>Create sales quotes that use the Quote Object. Includes a pre-built Excel template. * You must have the Quote object enabled for this solution.</value>
+    </labels>
+    <labels>
+        <fullName>Sales_Quote_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sales Quote Label</shortDescription>
+        <value>Sales Quote</value>
+    </labels>
+    <labels>
+        <fullName>Salesforce_Limitation_Page_Layout_Max_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Salesforce Limitation Page Layout Max Text</shortDescription>
+        <value>Current Salesforce limitations allow for a maximum of 90 page layouts to be updated in a single process. Please reduce the number of selected page layouts.</value>
+    </labels>
+    <labels>
+        <fullName>Salesforce_Object</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Salesforce Object</shortDescription>
+        <value>Select a Salesforce Object</value>
+    </labels>
+    <labels>
+        <fullName>Same_As_Template</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Same As Template</shortDescription>
+        <value>Same As Template</value>
+    </labels>
+    <labels>
+        <fullName>Sample_Record_Id_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sample_Record_Id_Text</shortDescription>
+        <value>Sample Record ID must be 15 or 18 characters in length.</value>
+    </labels>
+    <labels>
+        <fullName>Sample_Record_Missing</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sample_Record_Missing</shortDescription>
+        <value>Please navigate back to the solution details step and select a sample record.</value>
+    </labels>
+    <labels>
+        <fullName>Sample_Record_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sample Record Text</shortDescription>
+        <value>A sample {0} record has been preselected. Click the &quot;Access Template Builder&quot; to choose a different record.</value>
+    </labels>
+    <labels>
+        <fullName>Save_A_Copy_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Save A Copy Header Label</shortDescription>
+        <value>Save a Copy</value>
+    </labels>
+    <labels>
+        <fullName>Save_A_Copy_Node</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Save A Copy Node Label</shortDescription>
+        <value>Save a Copy</value>
+    </labels>
+    <labels>
+        <fullName>Save_A_Copy_Select_Chatter</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Save A Copy Select Chatter</shortDescription>
+        <value>Chatter</value>
+    </labels>
+    <labels>
+        <fullName>Save_A_Copy_Select_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Save a Copy Select Label</shortDescription>
+        <value>Select a location where you want to save the copied file</value>
+    </labels>
+    <labels>
+        <fullName>Save_A_Copy_Select_Salesforce_Chatter</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Save A Copy Select Chatter Text</shortDescription>
+        <value>Chatter</value>
+    </labels>
+    <labels>
+        <fullName>Save_A_Copy_Select_Salesforce_Content</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Save A Copy Select Content Text</shortDescription>
+        <value>Content</value>
+    </labels>
+    <labels>
+        <fullName>Save_A_Copy_Select_Salesforce_Documents</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Save A Copy Select Documents Text</shortDescription>
+        <value>Documents</value>
+    </labels>
+    <labels>
+        <fullName>Save_A_Copy_Select_Salesforce_Files</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Save A Copy Select Files Text</shortDescription>
+        <value>Salesforce Files</value>
+    </labels>
+    <labels>
+        <fullName>Save_A_Copy_Select_Salesforce_Notes_Attachments</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Save A Copy Select Notes &amp; Attachments Text</shortDescription>
+        <value>Notes &amp; Attachments</value>
+    </labels>
+    <labels>
+        <fullName>Save_A_Copy_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save A Copy Text</shortDescription>
+        <value>Save A Copy</value>
+    </labels>
+    <labels>
+        <fullName>Save_A_Copy_Toggle_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: Save a Copy Toggle Label</shortDescription>
+        <value>Would you like to save a copy of the file?</value>
+    </labels>
+    <labels>
+        <fullName>Save_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save Text</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Save_To_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save To Text</shortDescription>
+        <value>Save To</value>
+    </labels>
+    <labels>
+        <fullName>Saved_Successfully_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Saved Successfully Text</shortDescription>
+        <value>Saved Successfully</value>
+    </labels>
+    <labels>
+        <fullName>Saved_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Saved Text</shortDescription>
+        <value>Saved</value>
+    </labels>
+    <labels>
+        <fullName>Search_Conga_Solutions_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search Conga Solutions Label</shortDescription>
+        <value>Search Conga Solutions...</value>
+    </labels>
+    <labels>
+        <fullName>Search_Conga_Solutions_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search Conga Solutions Text</shortDescription>
+        <value>Search Conga Solutions</value>
+    </labels>
+    <labels>
+        <fullName>Search_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search Label</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>Search_Related_Contact_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search Related Contact Text</shortDescription>
+        <value>Search Related Contact</value>
+    </labels>
+    <labels>
+        <fullName>Select_A_Sample_Record_Table_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select A Sample Record Table Text</shortDescription>
+        <value>Select a sample record from the table or click &quot;Return to Solution Record&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>Select_A_Sample_Record_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select A Sample Record Text</shortDescription>
+        <value>Select a sample record from the table or click &quot;Return to Solution Record&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>Select_All_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select All Label</shortDescription>
+        <value>Select All</value>
+    </labels>
+    <labels>
+        <fullName>Select_File_Type</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select File Type</shortDescription>
+        <value>Select File Type</value>
+    </labels>
+    <labels>
+        <fullName>Select_Item_1_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select Item 1 Label</shortDescription>
+        <value>Select item 1</value>
+    </labels>
+    <labels>
+        <fullName>Select_Item_2_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select Item 2 Label</shortDescription>
+        <value>Select item 2</value>
+    </labels>
+    <labels>
+        <fullName>Select_Item_3_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select Item 3 Label</shortDescription>
+        <value>Select item 3</value>
+    </labels>
+    <labels>
+        <fullName>Select_Option_None</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select option text value for --None--</shortDescription>
+        <value>--None--</value>
+    </labels>
+    <labels>
+        <fullName>Select_Output_Action_Download</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select output action for download</shortDescription>
+        <value>Download</value>
+    </labels>
+    <labels>
+        <fullName>Select_Salesforce_Object_SF1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select a salesforce object for a SF1 Collection</shortDescription>
+        <value>Select a binding Salesforce Object for this collection in SF1</value>
+    </labels>
+    <labels>
+        <fullName>Select_Sample_Record_And_Click_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select Sample Record And Click Text</shortDescription>
+        <value>Select a Sample Record and click &quot;Access Template Builder&quot; to access the Template Builder.</value>
+    </labels>
+    <labels>
+        <fullName>Select_Sample_Record_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select Sample Record Text</shortDescription>
+        <value>Selected Sample Record ID is not the correct type for this Master Object.</value>
+    </labels>
+    <labels>
+        <fullName>Sf1_Action_Collection_Not_Found_Toast_Body1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sf1_Action_Collection_Not_Found_Toast_Body1</shortDescription>
+        <value>Please create a collection for</value>
+    </labels>
+    <labels>
+        <fullName>Sf1_Action_Collection_Not_Found_Toast_Body2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sf1_Action_Collection_Not_Found_Toast_Body2</shortDescription>
+        <value>in Conga DAW before you can use this component.</value>
+    </labels>
+    <labels>
+        <fullName>Sf1_Action_Collection_Not_Found_Toast_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sf1_Action_Collection_Not_Found_Toast_Title</shortDescription>
+        <value>Collection Not Found</value>
+    </labels>
+    <labels>
+        <fullName>SharingMode_Must_Not_Be_Null_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SharingMode Must Not Be Null Text</shortDescription>
+        <value>SharingMode must not be null</value>
+    </labels>
+    <labels>
+        <fullName>Show_More_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Show More Label</shortDescription>
+        <value>Show More</value>
+    </labels>
+    <labels>
+        <fullName>Signing_RecipientId_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Signing Recipient Id</shortDescription>
+        <value>Contact, User, or Lead Id</value>
+    </labels>
+    <labels>
+        <fullName>SolutionStep_Object_SBQQ_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Display the master object label under SBQQ situation.</shortDescription>
+        <value>Master Object: SBQQ Quote</value>
+    </labels>
+    <labels>
+        <fullName>Solution_Collection_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Solution Collection Text</shortDescription>
+        <value>Solution Collection</value>
+    </labels>
+    <labels>
+        <fullName>Solution_Create_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Solution Creation Error</shortDescription>
+        <value>Something went wrong with creating your solution record. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Solution_Detail_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Solutuion Detail Description</shortDescription>
+        <value>Start creating your solution by adding a name and identifying the master object in Salesforce.</value>
+    </labels>
+    <labels>
+        <fullName>Solution_Name_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Solution Name Label</shortDescription>
+        <value>SOLUTION NAME</value>
+    </labels>
+    <labels>
+        <fullName>Solution_Retrieve_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Solution Retrieve Error</shortDescription>
+        <value>Something went wrong with retrieving your solution details. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Sort_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sort Label</shortDescription>
+        <value>Sort</value>
+    </labels>
+    <labels>
+        <fullName>Stage_Complete_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Stage Complete Label</shortDescription>
+        <value>Stage Complete</value>
+    </labels>
+    <labels>
+        <fullName>Success_Extracted_Conga_Templates_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Success Extracted Conga Templates Text</shortDescription>
+        <value>Successfully extracted Non-Linked Conga Templates.</value>
+    </labels>
+    <labels>
+        <fullName>Template_Builder_Apex_Call_ToGetObjMetatData</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error Message for Template Builder Apex Call While To Get Object MetatData</shortDescription>
+        <value>Failed to get the object metadata, please retry later.</value>
+    </labels>
+    <labels>
+        <fullName>Template_Builder_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Builder Description</shortDescription>
+        <value>You can insert merge fields and modify text by selecting a word or text area on your document. Merged fields appear the text-based merge field syntax. For example: {{ACCOUNT_NAME}}.</value>
+    </labels>
+    <labels>
+        <fullName>Template_Builder_Field_Picker_Alternate_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template_Builder_Field_Picker_Alternate_Text</shortDescription>
+        <value>Copy to Clipboard</value>
+    </labels>
+    <labels>
+        <fullName>Template_Builder_Field_Picker_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Builder Field Picker Description</shortDescription>
+        <value>Copy and paste the items below to build your template.</value>
+    </labels>
+    <labels>
+        <fullName>Template_Builder_Field_Picker_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Builder Field Picker Title</shortDescription>
+        <value>Template Builder</value>
+    </labels>
+    <labels>
+        <fullName>Template_Builder_File_Too_Large</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Builder Error</shortDescription>
+        <value>The file cannot be uploaded because it exceeds the 2 MB limit. Reduce the size of the file or select a smaller file to upload.</value>
+    </labels>
+    <labels>
+        <fullName>Template_Builder_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Builder Header</shortDescription>
+        <value>Conga Template Editor</value>
+    </labels>
+    <labels>
+        <fullName>Template_Builder_Incorrect_File_Type_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Builder Error</shortDescription>
+        <value>You may only upload .docx files.</value>
+    </labels>
+    <labels>
+        <fullName>Template_Builder_No_TestRecord_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template_Builder_No_TestRecord_Description</shortDescription>
+        <value>No data on test record</value>
+    </labels>
+    <labels>
+        <fullName>Template_Builder_Popover_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Builder Popover Header</shortDescription>
+        <value>Insert Merge Fields</value>
+    </labels>
+    <labels>
+        <fullName>Template_Builder_Popover_Input_Replacement_Text_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Builder Popover Input Replacement Text Label</shortDescription>
+        <value>Enter Replacement Text</value>
+    </labels>
+    <labels>
+        <fullName>Template_Builder_Popover_Input_Search_InputSObjectMetadata_Text_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Builder Popover Input Search InputSObjectMetadata Text Label</shortDescription>
+        <value>Search {0} fields...</value>
+    </labels>
+    <labels>
+        <fullName>Template_Builder_Too_Many_Files_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Builder Error</shortDescription>
+        <value>You may only upload one file at a time.</value>
+    </labels>
+    <labels>
+        <fullName>Template_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Description</shortDescription>
+        <value>Select the templates you want added to your solution. You can create or upload your own template. You can add up to 10 templates only.</value>
+    </labels>
+    <labels>
+        <fullName>Template_File_Type_Validation</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Description</shortDescription>
+        <value>Please upload a template file instead of folder.</value>
+    </labels>
+    <labels>
+        <fullName>Template_Group</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template_Group</shortDescription>
+        <value>Template Group</value>
+    </labels>
+    <labels>
+        <fullName>Template_Group_Defined_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Group Defined Text</shortDescription>
+        <value>You have at least one Template Group defined. Make sure that you include appropriate Template Group values for Conga Template record(s).</value>
+    </labels>
+    <labels>
+        <fullName>Template_Id_Invalid</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template_Id_Invalid</shortDescription>
+        <value>Template ID entered is not valid.</value>
+    </labels>
+    <labels>
+        <fullName>Template_List</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Templates</shortDescription>
+        <value>Templates</value>
+    </labels>
+    <labels>
+        <fullName>Template_Name</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template_Name</shortDescription>
+        <value>Template Name</value>
+    </labels>
+    <labels>
+        <fullName>Template_Retrieve_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Retrieve Error</shortDescription>
+        <value>Something went wrong with retrieving your templates. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Template_Save_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Save Error</shortDescription>
+        <value>Something went wrong with saving your templates. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Template_Save_Page_Description1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Save Page Description first part</shortDescription>
+        <value>Fill out the details for your solution and upload your document to proceed.</value>
+    </labels>
+    <labels>
+        <fullName>Template_Save_Page_Description2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Save Page Description second part</shortDescription>
+        <value>Are required fields.</value>
+    </labels>
+    <labels>
+        <fullName>Template_Save_Page_Save_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template_Save_Page_Save_Button_Label</shortDescription>
+        <value>Add Template</value>
+    </labels>
+    <labels>
+        <fullName>Template_Save_Page_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template_Save_Page_Title</shortDescription>
+        <value>Add Template To Solution</value>
+    </labels>
+    <labels>
+        <fullName>Template_Warning</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Warning</shortDescription>
+        <value>Cannot add templates. Your solution does not yet exist. Please go to Step 1: Details to create your solution.</value>
+    </labels>
+    <labels>
+        <fullName>Templates_Added_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Templates Added Text</shortDescription>
+        <value>Template added.</value>
+    </labels>
+    <labels>
+        <fullName>Templates_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Templates Step Header</shortDescription>
+        <value>Add Templates to a Solution</value>
+    </labels>
+    <labels>
+        <fullName>Templates_Maximum_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Maximum Templates Message</shortDescription>
+        <value>You have reached the maximum (10) allowable number of templates.</value>
+    </labels>
+    <labels>
+        <fullName>Templates_Save_To_Clipboard</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text displayed after Savi icon clicked in the Templates DAW step</shortDescription>
+        <value>Saved to Clipboard</value>
+    </labels>
+    <labels>
+        <fullName>Templates_Table</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Table Text</shortDescription>
+        <value>Table</value>
+    </labels>
+    <labels>
+        <fullName>Templates_Table_Section_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Templates Table Section Description</shortDescription>
+        <value>Drag and drop templates to order them.</value>
+    </labels>
+    <labels>
+        <fullName>Templates_Table_Section_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Templates Table Section Header</shortDescription>
+        <value>Templates</value>
+    </labels>
+    <labels>
+        <fullName>Test_Sample_Data_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Test Sample Data Text</shortDescription>
+        <value>Test Sample Data</value>
+    </labels>
+    <labels>
+        <fullName>The_Conga_Email_Template_Id_Invalid_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The Conga Email Template Id Invalid Text</shortDescription>
+        <value>The Conga Email Template ID is not valid. Please verify the record ID and try again.</value>
+    </labels>
+    <labels>
+        <fullName>The_Conga_Global_Merge_Button_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The Conga Global Merge Button Text</shortDescription>
+        <value>The Conga Global Merge button {0} has been deleted. To re-create the Conga Global Merge, click &quot;Save&quot; and then click &quot;Create Conga Global Merge&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>The_Custom_Link_Deleted_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The Custom Link Deleted Text</shortDescription>
+        <value>The custom link {0} has been deleted. To re-create the link, click &quot;Save&quot; and then click &quot;Create Link&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>The_Selected_Sample_Record_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The Selected Sample Record Text</shortDescription>
+        <value>The selected Sample Record ID is not of the correct type for this Master Object.</value>
+    </labels>
+    <labels>
+        <fullName>This_Functionality_Not_Currently_Available_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>This Functionality Not Currently Available Text</shortDescription>
+        <value>This functionality is not currently available for managed package page layouts or objects that are part of a managed package.</value>
+    </labels>
+    <labels>
+        <fullName>This_Page_Designed_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>This Page Designed Text</shortDescription>
+        <value>This page is not designed to work without a Conga_Solution__c Id</value>
+    </labels>
+    <labels>
+        <fullName>To_Correct_This_Issue_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>To Correct This Issue Text</shortDescription>
+        <value>To correct this issue, navigate away from this page and then return to this record.</value>
+    </labels>
+    <labels>
+        <fullName>To_Fully_Utilize_Solution_Manager_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>To Fully Utilize Solution Manager Text</shortDescription>
+        <value>To fully utilize the Solution Manager, please change the value of the Solution Description field and click &quot;{0}&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>To_Launch_Compsoer_Button_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>To Launch Compsoer Button Text</shortDescription>
+        <value>To launch the Composer Solution, click the &quot;Launch Composer&quot; button below.</value>
+    </labels>
+    <labels>
+        <fullName>Toast_Authentication_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Toast Authentication Error</shortDescription>
+        <value>You are not authenticated to perform this action</value>
+    </labels>
+    <labels>
+        <fullName>Toast_General_Merge_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Toast General Merge Error</shortDescription>
+        <value>There was an error encountered during the merge</value>
+    </labels>
+    <labels>
+        <fullName>Toast_Maximum_Recipients_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Toast Maximum Recipients Message</shortDescription>
+        <value>You have reached the maximum number of 24 recipients. You will not be able to add additional recipients.</value>
+    </labels>
+    <labels>
+        <fullName>Toast_MyDomains_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Toast MyDomains Message</shortDescription>
+        <value>My Domains Enabled. Must add remote sites manually.</value>
+    </labels>
+    <labels>
+        <fullName>Toast_Post_Merge_Redirect_Failed_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Toast Post Merge Redirect Failed Error</shortDescription>
+        <value>Post Merge redirect failed. Please contact your Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>Toast_Solution_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Toast Solution Error</shortDescription>
+        <value>No Solutions Found</value>
+    </labels>
+    <labels>
+        <fullName>Toast_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Toast Title</shortDescription>
+        <value>There was an error processing your request.</value>
+    </labels>
+    <labels>
+        <fullName>Toast_Title_Success</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Toast Title Success</shortDescription>
+        <value>Success.</value>
+    </labels>
+    <labels>
+        <fullName>Toggle_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Toggle Text</shortDescription>
+        <value>Toggle</value>
+    </labels>
+    <labels>
+        <fullName>Unable_To_Create_Button_Field_Missing_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unable To Create Button Field Missing Text</shortDescription>
+        <value>Unable to create Button. The field {0} does not exist.</value>
+    </labels>
+    <labels>
+        <fullName>Unable_To_Create_Button_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unable To Create Button  Text</shortDescription>
+        <value>Unable to create Button. Please verify that the required Remote Sites have been created.</value>
+    </labels>
+    <labels>
+        <fullName>Unable_To_Create_Conga_QuickMerge_Field_Missing_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unable To Create QuickMerge Field Missing Text</shortDescription>
+        <value>Unable to create QuickMerge Record. The field {0} does not exist.</value>
+    </labels>
+    <labels>
+        <fullName>Unable_To_Create_Conga_QuickMerge_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unable To Create QuickMerge Text</shortDescription>
+        <value>Unable to create Conga QuickMerge Record. Please verify that the required Remote Sites have been created.</value>
+    </labels>
+    <labels>
+        <fullName>Unable_To_Create_Field_Integrity_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unable To Create Field Integrity Text</shortDescription>
+        <value>Unable to create due to a Field Integrity error.</value>
+    </labels>
+    <labels>
+        <fullName>Unable_To_Create_Link_Field_Integrity_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unable To Create Link Field Integrity Text</shortDescription>
+        <value>Unable to create Link due to a Field Integrity error.</value>
+    </labels>
+    <labels>
+        <fullName>Unable_To_Create_Link_Field_Missing_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unable To Create Link Field Missing Text</shortDescription>
+        <value>Unable to create Link. The field {0} does not exist.</value>
+    </labels>
+    <labels>
+        <fullName>Unable_To_Create_Link_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unable To Create Link Text</shortDescription>
+        <value>Unable to create Link. Please verify that the required Remote Sites have been created.</value>
+    </labels>
+    <labels>
+        <fullName>Unable_To_Create_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unable To Create Text</shortDescription>
+        <value>Unable to create or update. Please verify that the required Remote Sites have been created.</value>
+    </labels>
+    <labels>
+        <fullName>Unable_To_Determine_Component_Type_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unable To Determine Component Type Text</shortDescription>
+        <value>Unable to determine Component Type. Record cannot be deleted.</value>
+    </labels>
+    <labels>
+        <fullName>Unable_Update_Solution_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unable Update Solution Text</shortDescription>
+        <value>Unable to update the Soluton record or the Query against the master object type was incorrect.</value>
+    </labels>
+    <labels>
+        <fullName>Unable_Update_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unable Update Text</shortDescription>
+        <value>Unable to update.</value>
+    </labels>
+    <labels>
+        <fullName>Upload_File_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Upload File Label</shortDescription>
+        <value>Choose a docx, or drag it here to upload.</value>
+    </labels>
+    <labels>
+        <fullName>Upload_Files_Button_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Upload Files Button Text</shortDescription>
+        <value>Upload Files</value>
+    </labels>
+    <labels>
+        <fullName>Upload_New_Template_Button_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Upload New Template Button Text</shortDescription>
+        <value>Upload New Template</value>
+    </labels>
+    <labels>
+        <fullName>Upload_Template_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Upload Template Text</shortDescription>
+        <value>Upload Template</value>
+    </labels>
+    <labels>
+        <fullName>Validation_1_To_120_Characters_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Validation 1 To 120 Characters Text</shortDescription>
+        <value>Must have 1-120 characters</value>
+    </labels>
+    <labels>
+        <fullName>Validation_255_Characters_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Validation 255 Characters Text</shortDescription>
+        <value>255 characters maximum</value>
+    </labels>
+    <labels>
+        <fullName>Validation_300_Characters_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Validation 300 Characters Text</shortDescription>
+        <value>300 characters maximum</value>
+    </labels>
+    <labels>
+        <fullName>Validation_3_To_20_Characters_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Validation 3 To 20 Characters Text</shortDescription>
+        <value>Must have 3-20 characters</value>
+    </labels>
+    <labels>
+        <fullName>Validation_80_Characters_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Validation 80 Characters Text</shortDescription>
+        <value>80 characters maximum</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Bad_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Validation Bad Text</shortDescription>
+        <value>Description contains bad text</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Letters_Numbers_Spaces_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Validation Letters Numbers Spaces Text</shortDescription>
+        <value>Letters, numbers, and underscores only</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Letters_Numbers_Spaces_Underscores_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Validation Letters Numbers Spaces Underscores Text</shortDescription>
+        <value>Letters, numbers, spaces, and underscores only</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Special_Characters_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Validation Special Characters Text</shortDescription>
+        <value>Cannot contain spaces or special characters</value>
+    </labels>
+    <labels>
+        <fullName>Verify_Button_Or_Link_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Verify Button Or Link Text</shortDescription>
+        <value>Verify the Button/Link {0} exists on the {1} object.</value>
+    </labels>
+    <labels>
+        <fullName>Verify_Remote_Sites_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Verify Remote Sites Text</shortDescription>
+        <value>Verify that all required Remote Sites have been added. Go to the Conga Solutions Setup tab to add the required Remote Sites.</value>
+    </labels>
+    <labels>
+        <fullName>Video_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Video Text</shortDescription>
+        <value>Video</value>
+    </labels>
+    <labels>
+        <fullName>Watch_Video_Finish_Step_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Watch Video Finish Step Label</shortDescription>
+        <value>Watch Video</value>
+    </labels>
+    <labels>
+        <fullName>Weblink_Deleted_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Weblink Deleted Text</shortDescription>
+        <value>The weblink {0} has been very recently deleted.</value>
+    </labels>
+    <labels>
+        <fullName>Welcome_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welcome Label</shortDescription>
+        <value>Welcome!</value>
+    </labels>
+    <labels>
+        <fullName>Wistia_Video_Player_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Wistia Video Player Title</shortDescription>
+        <value>Wistia video player</value>
+    </labels>
+    <labels>
+        <fullName>Yes_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Yes</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>You_Must_Select_Button_First_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You Must Select Button First Text</shortDescription>
+        <value>You must select a button first.</value>
+    </labels>
+    <labels>
+        <fullName>Your_Almost_Done_Classic_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Your Almost Done Classic Text</shortDescription>
+        <value>You are almost done! {0} was created on your Conga Solutions tab. A button was created on the {1} Object for you. To use it, add {2} to the page layout.</value>
+    </labels>
+    <labels>
+        <fullName>Your_Almost_Done_Lightning_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Your Almost Done Lightning Text</shortDescription>
+        <value>You are almost done! Collection {0} was created on your Conga Solutions tab. If you would like to add Collection {0} to the Conga Lightning Component, select it in the {1} Lightning App Builder Page.</value>
+    </labels>
+    <labels>
+        <fullName>Your_Almost_Done_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Your Almost Done Text</shortDescription>
+        <value>You are almost done! {0} was created on your Conga Solutions tab. A button was created on the {1} Object for you. To use it, add {2} to the page layout.</value>
+    </labels>
+    <labels>
+        <fullName>eSignature_Node</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: eSignature Node Label</shortDescription>
+        <value>eSignature</value>
+    </labels>
+    <labels>
+        <fullName>eSignature_Retrieve_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BehaviorSettings: eSignature Behavior Settings Retrieve Error</shortDescription>
+        <value>Something went wrong with retrieving your eSignature behavior settings. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>eSignature_Save_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BehaviorSettings: eSignature Behavior Settings Save Error</shortDescription>
+        <value>Something went wrong with saving your eSignature behavior settings. Please refresh the page or rebuild your solution.</value>
+    </labels>
+    <labels>
+        <fullName>eSignature_Settings_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Behavior Settings: eSignature settings header</shortDescription>
+        <value>eSignature</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,14 @@
+<aura:component controller="RelatedContact">
+    <aura:handler name="init" value="{!this}" action="{!c.pageloadAction }" />
+
+    <h2 class="header">{!v.headervalue}</h2>
+        <lightning:input name="input" label="Account Name" value="{!v.Name}"/>
+		<aura:attribute name="headervalue" type="string"/>
+    	<aura:attribute name="Name" type="string"/>
+    	<aura:attribute name="contactNames" type="Contact"/>
+    	<ui:button aura:id="button" class="button" label="Search" press="{!c.myAction}"/>
+		
+    <aura:iteration items="{!v.contactNames}" var="c">
+    	<p>{!c.LastName}</p>
+    </aura:iteration>
+</aura:component>

@@ -1,0 +1,17 @@
+<apex:page controller="MetaDatatypeDemoCC">
+
+<apex:pageblock >
+
+<apex:pageblockTable value="{!CountrySetting}" var="country">
+
+<apex:column value="{!country.MasterLabel}"/>
+
+<apex:column value="{!country.DeveloperName}"/>
+
+<apex:column value="{!country.Country_Name__c}"/>
+
+</apex:pageblockTable>
+
+</apex:pageblock>
+
+</apex:page>

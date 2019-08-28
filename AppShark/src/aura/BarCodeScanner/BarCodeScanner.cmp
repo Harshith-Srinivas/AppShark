@@ -1,0 +1,10 @@
+<aura:component implements="force:appHostable,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction,flexipage:availableForAllPageTypes" access="global" >
+    <ltng:require scripts="{!$Resource.QR}" afterScriptsLoaded="{!c.openQRCamera}"/>
+    <aura:attribute name="Name" type="String"/>
+	<label class="qrcode-text-btn">
+        <input type="file" accept="image/*" capture="environment" onchange="{!c.openQRCamera}"/>
+    </label>
+    <div>
+    	{!v.Name}
+    </div>
+</aura:component>

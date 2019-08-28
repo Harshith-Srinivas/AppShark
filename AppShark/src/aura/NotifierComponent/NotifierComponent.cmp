@@ -1,0 +1,7 @@
+<aura:component >
+    <aura:registerEvent name = "compEvent" type="c:NewEventComponent"/>
+    <h1>Type Account Name</h1>
+    <aura:attribute name="Name" type="String"/>
+    <lightning:input name="input" label="Account Name" value="{!v.Name}"/>
+    <lightning:button label="Search" onclick="{!c.fireComp}"/>
+</aura:component>

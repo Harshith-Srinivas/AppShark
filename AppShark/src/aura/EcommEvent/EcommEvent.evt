@@ -1,0 +1,4 @@
+<aura:event type="COMPONENT" description="Event template">
+    <aura:attribute name="ProductName" type="String"/>
+    <aura:attribute name="ProductCategory" type="String"/>
+</aura:event>

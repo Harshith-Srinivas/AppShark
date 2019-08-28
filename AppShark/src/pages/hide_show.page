@@ -1,0 +1,18 @@
+<apex:page standardController="Account">
+	<apex:form >
+    	<apex:pageBlock >
+        	<apex:pageBlockSection >
+            	<apex:inputField value="{!Account.Industry}"/>
+                <apex:actionSupport event="onchange" reRender="test" />
+            </apex:pageBlockSection>
+            <apex:outputPanel id="test">
+            	<apex:pageBlockSection rendered="{!Account.Industry =='Agriculture'}">
+                	<apex:inputField value="{!Account.Name}"/>
+                </apex:pageBlockSection>
+                <apex:pageBlockSection rendered="{!Account.Industry =='Hospitality'}">
+                	<apex:inputField value="{!Account.Id}"/>
+                </apex:pageBlockSection>
+            </apex:outputPanel>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

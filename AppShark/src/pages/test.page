@@ -1,0 +1,20 @@
+<apex:page controller="ControllerGetAllObject" >
+    <apex:form >
+        <apex:actionFunction name="CallFieldMethod" action="{!fetchFields}" reRender="fields" />
+        <apex:actionFunction name="CallField" action="{!selectedField}"  />
+        <apex:pageMessages id="msg"></apex:pageMessages>
+        <apex:outputPanel id="objectlist" >
+            Select Object: 
+            <apex:selectList value="{!selectedObject}" size="1"  onchange="CallFieldMethod()" >
+            <apex:selectOptions value="{!listOfObjects}"></apex:selectOptions>
+            </apex:selectList>
+            </apex:outputPanel><br/>
+           <apex:outputPanel id="fields" >
+               Select Field : 
+            <apex:selectList value="{!selectedField}" size="1" id="FieldList" rendered="{!selectedObject != null}" onchange="CallField()" >
+            <apex:selectOptions value="{!listOfFields}"></apex:selectOptions>
+            </apex:selectList>
+        </apex:outputPanel>
+        
+    </apex:form>
+</apex:page>

@@ -1,0 +1,31 @@
+<aura:component controller="CustomSearch">
+	    <aura:attribute name="List" type="Object"/>
+    	<aura:attribute name="AccountntList" type="Account[]"/>
+    	<aura:attribute name="ContactList" type="Contact[]"/>
+		<aura:attribute name="OpportunityList" type="Opportunity[]"/>
+		<aura:attribute name="data" type="Object"/>
+    	<aura:attribute name="columns" type="List"/>
+    	<aura:handler name="SearchEv" event="c:SearchEvent" action="{!c.handlComponentEvent}"/>
+    	<c:SearchComponent />
+   		<lightning:accordion>
+             <lightning:accordionSection name="Accounts" label="Accounts">
+    			<div style="height: 300px">
+					<lightning:datatable
+							keyField="id"
+							columns="{!v.myColumns}"
+							data="{!v.List.acntList.Name}"
+							hideCheckboxColumn="true"/>
+				</div>
+             </lightning:accordionSection>	
+            <lightning:accordionSection name="Contacts" label="Contacts">
+    			<aura:iteration items="{!v.List.cntList}" var="con">
+    			<div class="slds-truncate">{!con.Name}</div>
+    			</aura:iteration>
+            </lightning:accordionSection>
+            <lightning:accordionSection name="Opportunities" label="Opportunities">
+    			<aura:iteration items="{!v.List.opntyList}" var="op">
+    			<div class="slds-truncate">{!op.Name}</div>
+    			</aura:iteration>
+            </lightning:accordionSection>
+    	</lightning:accordion>
+</aura:component>

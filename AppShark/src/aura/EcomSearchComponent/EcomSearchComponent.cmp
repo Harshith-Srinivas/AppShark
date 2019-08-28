@@ -1,0 +1,14 @@
+<aura:component implements="force:appHostable">
+    <aura:registerEvent name="ProductSearch" type="c:EcommEvent"/>
+    <aura:attribute name="Name" type="String"/>
+    <aura:attribute name="Category" type="String"/>
+    <lightning:input name="input" label="search" value="{!v.Name}"/>
+    <div style="float:left">
+    <lightning:select class="cat" name="select1" label="Choose Category" required="true" value="{!v.Category}">
+        <option value="Electronics">Electronics</option>
+        <option value="Home Appliances">Home Appliances</option>
+        <option value="Cloths">Cloths</option>
+    </lightning:select>
+    <lightning:button label="Search" onclick="{!c.fireFilterComp}"/>
+    </div>    
+</aura:component>
