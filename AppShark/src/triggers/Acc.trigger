@@ -13,11 +13,11 @@ trigger Acc on Account (after insert, after update)
     {
         if(ac.site == Null)
         {
-        	ac.Site = 'aaaa';
-        	lstAcc.add(ac);
+            ac.Site = 'aaaa';
+            lstAcc.add(ac);
             update lstAcc;
         }
     }
-	system.debug('l'+lstAcc);
+    system.debug('l'+lstAcc);
     
 }

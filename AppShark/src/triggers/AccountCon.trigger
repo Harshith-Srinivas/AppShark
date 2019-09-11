@@ -6,8 +6,8 @@ trigger AccountCon on Account (after insert) {
         Contact con = new Contact();
         con.LastName = objAcc.Name;
         con.AccountId = objAcc.Id;
-  		lstCon.add(con);
+        lstCon.add(con);
     }
-	if(!lstCon.isEmpty())
+    if(!lstCon.isEmpty())
         insert lstCon;
 }
